@@ -14,7 +14,7 @@ var username = "jzeferino";
 var userEmail = "jorgevalentzeferino@gmail.com";
 var numberOfColumns = 2;
 Func<string> readmePath = () => System.IO.Path.Combine(clonedRepo, "README.md");
-var repoUrl = "https://github.com/jzeferino/GithubEmojis.git";
+var repoUrl = "https://github.com/jzeferino/AllGithubEmojis.git";
 var master = "master";
 var isLocalBuild = BuildSystem.IsLocalBuild;
 

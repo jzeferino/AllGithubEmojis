@@ -30,7 +30,7 @@ public class GithubEmojiGenerator
 
     private void CreateDescription(Dictionary<string, string> emojis)
     {
-        _builder.AppendLine("# Github Emojis");
+        _builder.AppendLine("# All Github Emojis");
         _builder.AppendLine("* A list of all supported github emojis updated daily.");    
         _builder.AppendLine("* Automatically generated from github emoji API.");    
         _builder.AppendFormat("## <p align=\"center\"><b>{0} emojis available</b></p>\n", NumberToEmoji(emojis.Count));
