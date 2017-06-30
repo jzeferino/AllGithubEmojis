@@ -1,0 +1,25 @@
+language: csharp
+
+os:
+- linux
+
+mono:  
+  - 4.2.3
+  
+branches:
+  only:
+    - develop
+
+branches:
+  except:
+  - master
+  
+script:
+  - ./build.sh --verbosity Diagnostic
+
+cache:
+  directories:
+    - $HOME/.local/share/NuGet/Cache
+    - $HOME/.nuget/packages
+    - tools
+    
