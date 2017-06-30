@@ -31,8 +31,8 @@ Task("Default")
         githubAPIToken,
         (finalText) => FileWriteText(readmePath(), finalText));    
 
-    Information("Git addall, commit and push...");
-    GitAddAll(clonedRepo);
+    Information("Git add, commit and push...");
+    GitAdd(clonedRepo,  new FilePath[] { readmePath() });
     GitCommit(clonedRepo, username, userEmail, "Update README.md");
     GitPush(clonedRepo, username, gitpassword, master);
 });
