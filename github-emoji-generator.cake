@@ -33,7 +33,21 @@ public class GithubEmojiGenerator
         _builder.AppendLine("# Github Emojis");
         _builder.AppendLine("* A list of all supported github emojis updated daily.");    
         _builder.AppendLine("* Automatically generated from github emoji API.");    
-        _builder.AppendFormat("## <p align=\"center\"><b>{0} emojis available</b></p>\n", emojis.Count);
+        _builder.AppendFormat("## <p align=\"center\"><b>{0} emojis available</b></p>\n", NumberToEmoji(emojis.Count));
+    }
+
+    private string NumberToEmoji(int number)
+    {
+        string[] numbersToLetters = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+        var builder = new StringBuilder();
+
+        while(number > 0)
+        {
+            builder.Insert(0, string.Format(" :{0}:", numbersToLetters[number % 10]));
+            number = number / 10;
+        }
+        return builder.ToString();
     }
 
     private void CreateEmojiTable(Dictionary<string, string> emojis)
