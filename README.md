@@ -2,7 +2,7 @@
 * A list of all supported github emojis updated daily.
 * Automatically generated from github emoji API.
 ## <p align="center"><b> :one: :five: :zero: :eight: emojis available</b></p>
-| Last updated (UTC) 7/2/2017 9:08:42 AM |  | 
+| Last updated (UTC) 7/3/2017 9:09:26 AM |  | 
 | --- | --- |
 | :+1: `:+1:` | :-1: `:-1:` |
 | :100: `:100:` | :1234: `:1234:` |
