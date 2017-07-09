@@ -1,49 +1,45 @@
-#addin Cake.Git
-#addin Cake.FileHelpers
-
-// Environment variables.
-var gitpassword = EnvironmentVariable("githubPassword") ?? Argument("password", string.Empty);
-var githubAPIToken = EnvironmentVariable("githubAPIToken") ?? Argument("token", string.Empty);
-
-// Load other scripts.
-#load "./github-emoji-generator.cake"
-
 // Declarations.
-var clonedRepo = Directory("./repo");
-var username = "jzeferino";
-var userEmail = "jorgevalentzeferino@gmail.com";
-var numberOfColumns = 2;
-Func<string> readmePath = () => System.IO.Path.Combine(clonedRepo, "README.md");
-var repoUrl = "https://github.com/jzeferino/AllGithubEmojis.git";
-var master = "master";
-var isLocalBuild = BuildSystem.IsLocalBuild;
+var configuration = "Release";
+var solutionFile = new FilePath("src/AllGithubEmojis.sln");
 
 // Tasks.
+Task("Clean")
+    .Does(() =>
+{	
+    DotNetBuild(solutionFile, settings => settings
+        .SetConfiguration(configuration)
+        .WithTarget("Clean")
+        .SetVerbosity(Verbosity.Minimal));
+});
+
+Task("Restore")
+    .Does(() => 
+{
+    NuGetRestore(solutionFile);
+});
+
+Task("Build")
+	.IsDependentOn("Clean")
+	.IsDependentOn("Restore")
+	.Does(() =>  
+{	
+    DotNetBuild(solutionFile, settings => settings
+        .SetConfiguration(configuration)
+        .WithTarget("Build")
+        .SetVerbosity(Verbosity.Minimal));
+});
+
 Task("Default")
+	.IsDependentOn("Build")
     .Does(() =>
 {
-    if(DirectoryExists(clonedRepo))
-    {
-        DeleteDirectory(clonedRepo, recursive:true);
-    }  
-    
-    Information($"Cloning {master}...");
-    GitClone(repoUrl, clonedRepo, new GitCloneSettings{ BranchName = master });
-
-    Information("Generating README.md...");
-    GithubEmojiGenerator.Generate(
-        Context,
-        numberOfColumns,
-        githubAPIToken,
-        (finalText) => FileWriteText(readmePath(), finalText));    
-
-    if(!isLocalBuild)
-    {
-        Information("Git add, commit and push...");
-        GitAdd(clonedRepo,  new FilePath[] { readmePath() });
-        GitCommit(clonedRepo, username, userEmail, "Update README.md");
-        GitPush(clonedRepo, username, gitpassword, master);
-    }    
+    CakeExecuteScript("./run.cake", new CakeSettings { 
+        Arguments = new Dictionary<string, string>
+        {
+            {"target", "Default" },
+            {"--verbosity", "Diagnostic" }
+        }
+    });
 });
 
 // Execution.
