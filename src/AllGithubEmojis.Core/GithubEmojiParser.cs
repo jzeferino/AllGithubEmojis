@@ -28,7 +28,9 @@ namespace AllGithubEmojis.Core
 
             var emojis = new Emojis();
 
-            var (map, groupedEmojiText) = await TaskEx.WhenAll(ParseGithubEmojis(token), Requests.ReadEmojiTestFileAsync());
+            var tuple = await TaskEx.WhenAll(ParseGithubEmojis(token), Requests.ReadEmojiTestFileAsync());
+            var groupedEmojiText = tuple.Item2;
+            var map = tuple.Item1;
 
             using (var file = new StringReader(groupedEmojiText))
             {

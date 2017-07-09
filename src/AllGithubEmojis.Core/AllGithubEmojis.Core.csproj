@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>AllGithubEmojis.Core</RootNamespace>
     <AssemblyName>AllGithubEmojis.Core</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
