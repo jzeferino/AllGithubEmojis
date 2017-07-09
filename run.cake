@@ -1,7 +1,7 @@
 #addin Cake.Git
 #addin Cake.FileHelpers
 
-#r src/AllGithubEmojis.core/bin/Release/AllGithubEmojis.Core.dll
+#r src/AllGithubEmojis.Core/bin/Release/AllGithubEmojis.Core.dll
 using AllGithubEmojis.Core;
 using AllGithubEmojis.Core.Generator;
 
