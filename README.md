@@ -3,7 +3,7 @@
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :five: :zero: :eight: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 7/30/2017 7:39:55 PM</p>
+### <p align="center">Last updated (UTC) 8/3/2017 10:50:26 PM</p>
 * [Smileys & People](#smileys--people)
 	 * [face-positive](#face-positive)
 	 * [face-neutral](#face-neutral)
@@ -371,8 +371,8 @@
 ### place-building
 | :stadium: **`:stadium:`** | :classical_building: **`:classical_building:`** | :building_construction: **`:building_construction:`** 
 |:---:|:---:|:---:|
-| :house: **`:house:`** | :houses: **`:houses:`** | :cityscape: **`:cityscape:`** |
-| :derelict_house: **`:derelict_house:`** | :house_with_garden: **`:house_with_garden:`** | :office: **`:office:`** |
+| :houses: **`:houses:`** | :cityscape: **`:cityscape:`** | :derelict_house: **`:derelict_house:`** |
+| :house: **`:house:`** | :house_with_garden: **`:house_with_garden:`** | :office: **`:office:`** |
 | :post_office: **`:post_office:`** | :european_post_office: **`:european_post_office:`** | :hospital: **`:hospital:`** |
 | :bank: **`:bank:`** | :hotel: **`:hotel:`** | :love_hotel: **`:love_hotel:`** |
 | :convenience_store: **`:convenience_store:`** | :school: **`:school:`** | :department_store: **`:department_store:`** |
