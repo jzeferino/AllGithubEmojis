@@ -2,6 +2,10 @@
 var configuration = "Release";
 var solutionFile = new FilePath("src/AllGithubEmojis.sln");
 
+// Environment variables.
+var gitpassword = Argument("password", string.Empty);
+var githubAPIToken = Argument("token", string.Empty);
+
 // Tasks.
 Task("Clean")
     .Does(() =>
@@ -37,7 +41,9 @@ Task("Default")
         Arguments = new Dictionary<string, string>
         {
             {"target", "Default" },
-            {"--verbosity", "Diagnostic" }
+            {"--verbosity", "Diagnostic" },
+            {"password", gitpassword },
+            {"token", githubAPIToken }
         }
     });
 });
