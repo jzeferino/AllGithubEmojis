@@ -1,5 +1,6 @@
 #addin Cake.Git
 #addin Cake.FileHelpers
+#addin "Cake.Json"
 
 #r src/AllGithubEmojis.Core/bin/Release/AllGithubEmojis.Core.dll
 using AllGithubEmojis.Core;
@@ -15,35 +16,58 @@ var username = "jzeferino";
 var userEmail = "jorgevalentzeferino@gmail.com";
 var numberOfColumns = 3;
 Func<string> readmePath = () => System.IO.Path.Combine(clonedRepo, "README.md");
+Func<string> jsonPath = () => System.IO.Path.Combine(clonedRepo, "emojis.json");
 var repoUrl = "https://github.com/jzeferino/AllGithubEmojis.git";
 var master = "master";
+var ghPages = "gh-pages";
 var isLocalBuild = BuildSystem.IsLocalBuild;
 
-// Tasks.
-Task("Default")
-    .Does(() =>
+// Do common logic.
+Action<string, Action, Func<string>, string> CloneExecuteAndPush = (branch, execute, filePath, commitMessage) =>
 {
     if(DirectoryExists(clonedRepo))
     {
         DeleteDirectory(clonedRepo, recursive:true);
     }  
-    
-    Information($"Cloning {master}...");
-    GitClone(repoUrl, clonedRepo, new GitCloneSettings{ BranchName = master });
-    
-    Information("Parsing emojis...");
-    var emojis = GithubEmojiParser.Parse(githubAPIToken).Result;
 
-    Information("Generating README.md...");
-    FileWriteText(readmePath(), GithubReadmeGenerator.Generate(emojis, numberOfColumns));
+    Information($"Cloning {branch}...");
+    GitClone(repoUrl, clonedRepo, new GitCloneSettings{ BranchName = branch });
+    
+    execute();
 
     if(!isLocalBuild)
     {
         Information("Git add, commit and push...");
-        GitAdd(clonedRepo,  new FilePath[] { readmePath() });
-        GitCommit(clonedRepo, username, userEmail, "Update README.md");
-        GitPush(clonedRepo, username, gitpassword, master);
-    }    
+        GitAdd(clonedRepo,  new FilePath[] { filePath() });
+        GitCommit(clonedRepo, username, userEmail, commitMessage);
+        GitPush(clonedRepo, username, gitpassword, branch);
+    }
+};
+
+// Tasks.
+Task("Default")
+    .Does(() =>
+{
+    Information("Parsing emojis...");
+    var emojis = GithubEmojiParser.Parse(githubAPIToken).Result;
+
+    CloneExecuteAndPush(
+        master,
+        () => {
+            Information("Generating README.md...");
+            FileWriteText(readmePath(), GithubReadmeGenerator.Generate(emojis, numberOfColumns));
+        },
+        readmePath,
+        "Update README.md");
+    
+    CloneExecuteAndPush(
+        ghPages,
+        () => {
+            Information("Generating emojis.json...");
+            FileWriteText(jsonPath(), SerializeJson(emojis));
+        },
+        jsonPath,
+        "Update emojis.json");
 });
 
 // Execution.
