@@ -38,9 +38,17 @@ Action<string, Action, Func<string>, string> CloneExecuteAndPush = (branch, exec
     if(!isLocalBuild)
     {
         Information("Git add, commit and push...");
-        GitAdd(clonedRepo,  new FilePath[] { filePath() });
-        GitCommit(clonedRepo, username, userEmail, commitMessage);
-        GitPush(clonedRepo, username, gitpassword, branch);
+        if(GitHasUncommitedChanges(clonedRepo))
+        {
+            GitAdd(clonedRepo,  new FilePath[] { filePath() });
+            GitCommit(clonedRepo, username, userEmail, commitMessage);
+            GitPush(clonedRepo, username, gitpassword, branch);
+        }
+        else
+        {
+            Information("Nothing to commit.");
+        }
+        
     }
 };
 
