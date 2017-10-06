@@ -1,0 +1,70 @@
+body {
+  margin: 0 auto;
+  line-height: 1.5; }
+  body header img {
+    width: 100%; }
+  body #main {
+    display: block;
+    max-width: 1264px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    font-size: 14px;
+    font-weight: 400; }
+    .fix-search body #main .search {
+      position: fixed;
+      top: 10px; }
+      .fix-search body #main .search input {
+        width: 250px; }
+    body #main h1, body #main h2, body #main h3 {
+      color: #a94442; }
+    body #main .group h1 {
+      font-size: 22px;
+      text-transform: small-caps; }
+    body #main .group .sub-group h2 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold; }
+    body #main .group .sub-group .emoji {
+      float: left;
+      position: relative;
+      margin: 1.66% 0%;
+      text-align: center; }
+      body #main .group .sub-group .emoji span {
+        display: inline-block;
+        width: 100%;
+        font-size: 10px;
+        text-transform: uppercase;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; }
+      body #main .group .sub-group .emoji div {
+        margin: 5px; }
+        body #main .group .sub-group .emoji div img {
+          width: 24px;
+          cursor: pointer;
+          height: 24px;
+          margin-left: auto;
+          margin-right: auto; }
+        body #main .group .sub-group .emoji div p {
+          font-size: 0;
+          display: none;
+          cursor: pointer;
+          margin-left: auto;
+          margin-right: auto; }
+  body .back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: #a94442; }
+    body .back-to-top i {
+      font-size: 60px; }
+
+.hidden {
+  display: none; }
