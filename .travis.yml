@@ -16,10 +16,3 @@ branches:
   
 script:
   - ./build.sh --verbosity Diagnostic
-
-cache:
-  directories:
-    - $HOME/.local/share/NuGet/Cache
-    - $HOME/.nuget/packages
-    - tools
-    
