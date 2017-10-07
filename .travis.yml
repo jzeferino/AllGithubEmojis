@@ -4,7 +4,7 @@ os:
 - linux
 
 mono:  
-  - 4.2.3
+  - 5.2.0
   
 branches:
   only:
