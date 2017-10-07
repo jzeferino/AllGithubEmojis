@@ -57,6 +57,8 @@ namespace AllGithubEmojis.Core.Generator
         private void CreateHeaderDescription()
         {
             _builder.AppendLine("# All Github Emojis");
+            _builder.AppendLine("## Visit [AllGithubEmojis](https://jzeferino.github.io/AllGithubEmojis/) for a better emoji experience.");
+
             _builder.AppendLine("* A list of **all supported github** emojis updated weekly.");
             _builder.AppendLine("* **Automatically generated** from github emoji API.");
             _builder.AppendLine("* Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).");
