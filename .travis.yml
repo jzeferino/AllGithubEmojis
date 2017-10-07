@@ -13,6 +13,7 @@ branches:
 branches:
   except:
   - master
+  - gh-pages
   
 script:
   - ./build.sh --verbosity Diagnostic
