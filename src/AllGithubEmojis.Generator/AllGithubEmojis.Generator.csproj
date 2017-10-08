@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}</ProjectGuid>
+    <ProjectGuid>{BFDE4704-2A33-4F3F-8957-D019241593BA}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>AllGithubEmojis.Core</RootNamespace>
-    <AssemblyName>AllGithubEmojis.Core</AssemblyName>
+    <RootNamespace>AllGithubEmojis.Generator</RootNamespace>
+    <AssemblyName>AllGithubEmojis.Generator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -28,29 +28,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Emoji.cs" />
-    <Compile Include="Model\EmojiGroup.cs" />
-    <Compile Include="Model\EmojiSubGroup.cs" />
-    <Compile Include="Model\Emojis.cs" />
-    <Compile Include="GithubEmojiParser.cs" />
-    <Compile Include="Model\EmoijMap.cs" />
-    <Compile Include="Extensions\TaskEx.cs" />
-    <Compile Include="Network\Requests.cs" />
-    <Compile Include="Extensions\ListExtension.cs" />
+    <Compile Include="GithubReame\GithubReadmeGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <Folder Include="GithubReame\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="Network\" />
+    <ProjectReference Include="..\AllGithubEmojis.Core\AllGithubEmojis.Core.csproj">
+      <Project>{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}</Project>
+      <Name>AllGithubEmojis.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

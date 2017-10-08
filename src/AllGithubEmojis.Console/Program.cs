@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using AllGithubEmojis.Core;
-using AllGithubEmojis.Core.Generator;
+using AllGithubEmojis.Generator.GithubReadme;
 
 namespace AllGithubEmojis.Console
 {

@@ -38,6 +38,10 @@
       <Project>{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}</Project>
       <Name>AllGithubEmojis.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AllGithubEmojis.Generator\AllGithubEmojis.Generator.csproj">
+      <Project>{BFDE4704-2A33-4F3F-8957-D019241593BA}</Project>
+      <Name>AllGithubEmojis.Generator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

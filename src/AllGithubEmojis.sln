@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllGithubEmojis.Console", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllGithubEmojis.Core", "AllGithubEmojis.Core\AllGithubEmojis.Core.csproj", "{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllGithubEmojis.Generator", "AllGithubEmojis.Generator\AllGithubEmojis.Generator.csproj", "{BFDE4704-2A33-4F3F-8957-D019241593BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFDE4704-2A33-4F3F-8957-D019241593BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDE4704-2A33-4F3F-8957-D019241593BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDE4704-2A33-4F3F-8957-D019241593BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDE4704-2A33-4F3F-8957-D019241593BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
