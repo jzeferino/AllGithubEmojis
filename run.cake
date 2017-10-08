@@ -3,8 +3,10 @@
 #addin "Cake.Json"
 
 #r src/AllGithubEmojis.Core/bin/Release/AllGithubEmojis.Core.dll
+#r src/AllGithubEmojis.Generator/bin/Release/AllGithubEmojis.Generator.dll
+
 using AllGithubEmojis.Core;
-using AllGithubEmojis.Core.Generator;
+using AllGithubEmojis.Generator.GithubReadme;
 
 // Environment variables.
 var gitpassword = EnvironmentVariable("githubPassword") ?? Argument("password", string.Empty);
