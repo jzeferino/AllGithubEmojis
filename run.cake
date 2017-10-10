@@ -29,7 +29,10 @@ Action<string, Action, Func<string>, string> CloneExecuteAndPush = (branch, exec
 {
     if(DirectoryExists(clonedRepo))
     {
-        DeleteDirectory(clonedRepo, recursive:true);
+        DeleteDirectory(clonedRepo, new DeleteDirectorySettings 
+        {
+            Recursive = true
+        });
     }  
 
     Information($"Cloning {branch}...");
