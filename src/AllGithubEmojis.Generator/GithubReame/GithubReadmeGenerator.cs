@@ -8,7 +8,7 @@ namespace AllGithubEmojis.Generator.GithubReadme
 {
     public class GithubReadmeGenerator
     {
-        private StringBuilder _builder;
+        private readonly StringBuilder _builder;
         private readonly int _colums;
         private Emojis _emojis;
 
@@ -32,10 +32,10 @@ namespace AllGithubEmojis.Generator.GithubReadme
 
         private void CreateIndex()
         {
-            foreach (var emojiGroup in _emojis.Groups.Where(g => g.SubGroups.Count > 0))
+            foreach (var emojiGroup in _emojis.Groups)
             {
                 _builder.AppendLine($"* [{emojiGroup.Name}](#{emojiGroup.Name.ToLower().Replace(" & ", "--")})");
-                foreach (var subGroup in emojiGroup.SubGroups.Where(s => s.Emojis.Count > 0))
+                foreach (var subGroup in emojiGroup.SubGroups)
                 {
                     _builder.AppendLine($"\t * [{subGroup.Name}](#{subGroup.Name.ToLower().Replace(" & ", "--")})");
                 }

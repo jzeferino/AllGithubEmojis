@@ -69,6 +69,10 @@ namespace AllGithubEmojis.Core
                     }}
             });
 
+            // Clean up empty groups and subgroups.
+            emojis.Groups.RemoveAll(group => group.SubGroups.Count == 0);
+            emojis.Groups.ForEach(group => group.SubGroups.RemoveAll(s => s.Emojis.Count == 0));
+
             return emojis;
         }
 
