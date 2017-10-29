@@ -32,10 +32,10 @@ namespace AllGithubEmojis.Generator.GithubReadme
 
 		private void CreateIndex()
 		{
-			foreach (var emojiGroup in _emojis.Groups)
+			foreach (var emojiGroup in _emojis.Groups.Where(g => g.SubGroups.Count > 0))
 			{
 				_builder.AppendLine($"* [{emojiGroup.Name}](#{emojiGroup.Name.ToLower().Replace(" & ", "--")})");
-				foreach (var subGroup in emojiGroup.SubGroups)
+				foreach (var subGroup in emojiGroup.SubGroups.Where(s => s.Emojis.Count > 0))
 				{
 					_builder.AppendLine($"\t * [{subGroup.Name}](#{subGroup.Name.ToLower().Replace(" & ", "--")})");
 				}
