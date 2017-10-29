@@ -3,7 +3,7 @@
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :five: :zero: :eight: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 10/29/2017 10:19:47 PM</p>
+### <p align="center">Last updated (UTC) 10/29/2017 10:47:31 PM</p>
 * [Smileys & People](#smileys--people)
 	 * [face-positive](#face-positive)
 	 * [face-neutral](#face-neutral)
@@ -756,8 +756,6 @@
 | :vanuatu: **`:vanuatu:`** | :wallis_futuna: **`:wallis_futuna:`** | :samoa: **`:samoa:`** |
 | :kosovo: **`:kosovo:`** | :yemen: **`:yemen:`** | :mayotte: **`:mayotte:`** |
 | :south_africa: **`:south_africa:`** | :zambia: **`:zambia:`** | :zimbabwe: **`:zimbabwe:`** 
-### subdivision-flag
-
 # Miscellaneous
 ### other
 | :atom: **`:atom:`** | :basecamp: **`:basecamp:`** | :basecampy: **`:basecampy:`** 
