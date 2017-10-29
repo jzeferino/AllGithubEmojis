@@ -26,8 +26,7 @@ namespace AllGithubEmojis.Core.Extensions
                 return true;
             }
 
-            var collection = enumerable as ICollection<T>;
-            if (collection != null)
+            if (enumerable is ICollection<T> collection)
             {
                 return collection.Count < 1;
             }
