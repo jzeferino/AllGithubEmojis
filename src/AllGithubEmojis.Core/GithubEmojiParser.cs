@@ -51,8 +51,7 @@ namespace AllGithubEmojis.Core
                     {
                         CreateSubGroup(line, emojis);
                     }
-
-                    // Don't parse comment lines.
+                    // If the line isn't a comment, add the emoji.
                     else if (!line.StartsWith("#", StringComparison.Ordinal))
                     {
                         CreateEmoji(map, line, emojis);
@@ -60,6 +59,7 @@ namespace AllGithubEmojis.Core
                 }
             }
 
+            // Add reaming emojis to miscellaneous bag.
             emojis.Groups.Add(new EmojiGroup
             {
                 Name = "Miscellaneous",
@@ -101,13 +101,8 @@ namespace AllGithubEmojis.Core
                 foreach (var emoji in map.CodeEmojiDictionary[unicode])
                 {
                     emoji.Unicode = unicode;
-                    emojis
-                        .Groups
-                        .Last()
-                        .SubGroups
-                        .Last()
-                        .Emojis
-                        .Add(emoji);
+
+                    AddEmoji(emojis, emoji);
 
                     map.NameCodeDictionary.Remove(emoji.Name);
 
@@ -122,13 +117,8 @@ namespace AllGithubEmojis.Core
                     if (index == -1) { return; }
                     var emoji = map.CodeEmojiDictionary[map.NameCodeDictionary[emojiName]][index];
                     emoji.Unicode = unicode;
-                    emojis
-                        .Groups
-                        .Last()
-                        .SubGroups
-                        .Last()
-                        .Emojis
-                        .Add(emoji);
+
+                    AddEmoji(emojis, emoji);
 
                     map.CodeEmojiDictionary[map.NameCodeDictionary[emojiName]].RemoveAt(index);
                     if (map.CodeEmojiDictionary[map.NameCodeDictionary[emojiName]].Count == 0)
@@ -139,6 +129,16 @@ namespace AllGithubEmojis.Core
                     map.NameCodeDictionary.Remove(emojiName);
                 }
             }
+        }
+
+        private static void AddEmoji(Emojis emojis, Emoji emoji)
+        {
+            emojis.Groups
+                .Last()
+                .SubGroups
+                .Last()
+                .Emojis
+                .Add(emoji);
         }
 
         private async Task<EmoijMap> ParseGithubEmojis(string token)
