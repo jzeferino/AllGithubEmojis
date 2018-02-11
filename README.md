@@ -3,7 +3,7 @@
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :five: :zero: :eight: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 2/4/2018 7:54:10 PM</p>
+### <p align="center">Last updated (UTC) 2/11/2018 7:54:53 PM</p>
 * [Smileys & People](#smileys--people)
 	 * [face-positive](#face-positive)
 	 * [face-neutral](#face-neutral)
@@ -57,6 +57,7 @@
 	 * [award-medal](#award-medal)
 	 * [sport](#sport)
 	 * [game](#game)
+	 * [arts & crafts](#arts--crafts)
 * [Objects](#objects)
 	 * [sound](#sound)
 	 * [music](#music)
@@ -71,7 +72,9 @@
 	 * [office](#office)
 	 * [lock](#lock)
 	 * [tool](#tool)
+	 * [science](#science)
 	 * [medical](#medical)
+	 * [household](#household)
 	 * [other-object](#other-object)
 * [Symbols](#symbols)
 	 * [transport-sign](#transport-sign)
@@ -124,16 +127,16 @@
 |:---:|:---:|:---:|
 | :nauseated_face: **`:nauseated_face:`** | :sneezing_face: **`:sneezing_face:`** 
 ### face-role
-| :innocent: **`:innocent:`** | :cowboy_hat_face: **`:cowboy_hat_face:`** | :clown_face: **`:clown_face:`** 
+| :innocent: **`:innocent:`** | :cowboy_hat_face: **`:cowboy_hat_face:`** | :lying_face: **`:lying_face:`** 
 |:---:|:---:|:---:|
-| :lying_face: **`:lying_face:`** | :nerd_face: **`:nerd_face:`** 
+| :nerd_face: **`:nerd_face:`** 
 ### face-fantasy
-| :smiling_imp: **`:smiling_imp:`** | :imp: **`:imp:`** | :japanese_ogre: **`:japanese_ogre:`** 
+| :smiling_imp: **`:smiling_imp:`** | :imp: **`:imp:`** | :clown_face: **`:clown_face:`** 
 |:---:|:---:|:---:|
-| :japanese_goblin: **`:japanese_goblin:`** | :skull: **`:skull:`** | :skull_and_crossbones: **`:skull_and_crossbones:`** |
-| :ghost: **`:ghost:`** | :alien: **`:alien:`** | :space_invader: **`:space_invader:`** |
-| :robot: **`:robot:`** | :hankey: **`:hankey:`** | :poop: **`:poop:`** |
-| :shit: **`:shit:`** 
+| :japanese_ogre: **`:japanese_ogre:`** | :japanese_goblin: **`:japanese_goblin:`** | :skull: **`:skull:`** |
+| :skull_and_crossbones: **`:skull_and_crossbones:`** | :ghost: **`:ghost:`** | :alien: **`:alien:`** |
+| :space_invader: **`:space_invader:`** | :robot: **`:robot:`** | :hankey: **`:hankey:`** |
+| :poop: **`:poop:`** | :shit: **`:shit:`** 
 ### cat-face
 | :smiley_cat: **`:smiley_cat:`** | :smile_cat: **`:smile_cat:`** | :joy_cat: **`:joy_cat:`** 
 |:---:|:---:|:---:|
@@ -370,13 +373,13 @@
 ### place-building
 | :stadium: **`:stadium:`** | :classical_building: **`:classical_building:`** | :building_construction: **`:building_construction:`** 
 |:---:|:---:|:---:|
-| :houses: **`:houses:`** | :cityscape: **`:cityscape:`** | :derelict_house: **`:derelict_house:`** |
-| :house: **`:house:`** | :house_with_garden: **`:house_with_garden:`** | :office: **`:office:`** |
-| :post_office: **`:post_office:`** | :european_post_office: **`:european_post_office:`** | :hospital: **`:hospital:`** |
-| :bank: **`:bank:`** | :hotel: **`:hotel:`** | :love_hotel: **`:love_hotel:`** |
-| :convenience_store: **`:convenience_store:`** | :school: **`:school:`** | :department_store: **`:department_store:`** |
-| :factory: **`:factory:`** | :japanese_castle: **`:japanese_castle:`** | :european_castle: **`:european_castle:`** |
-| :wedding: **`:wedding:`** | :tokyo_tower: **`:tokyo_tower:`** | :statue_of_liberty: **`:statue_of_liberty:`** 
+| :houses: **`:houses:`** | :derelict_house: **`:derelict_house:`** | :house: **`:house:`** |
+| :house_with_garden: **`:house_with_garden:`** | :office: **`:office:`** | :post_office: **`:post_office:`** |
+| :european_post_office: **`:european_post_office:`** | :hospital: **`:hospital:`** | :bank: **`:bank:`** |
+| :hotel: **`:hotel:`** | :love_hotel: **`:love_hotel:`** | :convenience_store: **`:convenience_store:`** |
+| :school: **`:school:`** | :department_store: **`:department_store:`** | :factory: **`:factory:`** |
+| :japanese_castle: **`:japanese_castle:`** | :european_castle: **`:european_castle:`** | :wedding: **`:wedding:`** |
+| :tokyo_tower: **`:tokyo_tower:`** | :statue_of_liberty: **`:statue_of_liberty:`** 
 ### place-religious
 | :church: **`:church:`** | :mosque: **`:mosque:`** | :synagogue: **`:synagogue:`** 
 |:---:|:---:|:---:|
@@ -384,12 +387,11 @@
 ### place-other
 | :fountain: **`:fountain:`** | :tent: **`:tent:`** | :foggy: **`:foggy:`** 
 |:---:|:---:|:---:|
-| :night_with_stars: **`:night_with_stars:`** | :sunrise_over_mountains: **`:sunrise_over_mountains:`** | :sunrise: **`:sunrise:`** |
-| :city_sunset: **`:city_sunset:`** | :city_sunrise: **`:city_sunrise:`** | :bridge_at_night: **`:bridge_at_night:`** |
-| :hotsprings: **`:hotsprings:`** | :milky_way: **`:milky_way:`** | :carousel_horse: **`:carousel_horse:`** |
-| :ferris_wheel: **`:ferris_wheel:`** | :roller_coaster: **`:roller_coaster:`** | :barber: **`:barber:`** |
-| :circus_tent: **`:circus_tent:`** | :performing_arts: **`:performing_arts:`** | :framed_picture: **`:framed_picture:`** |
-| :art: **`:art:`** | :slot_machine: **`:slot_machine:`** 
+| :night_with_stars: **`:night_with_stars:`** | :cityscape: **`:cityscape:`** | :sunrise_over_mountains: **`:sunrise_over_mountains:`** |
+| :sunrise: **`:sunrise:`** | :city_sunset: **`:city_sunset:`** | :city_sunrise: **`:city_sunrise:`** |
+| :bridge_at_night: **`:bridge_at_night:`** | :hotsprings: **`:hotsprings:`** | :milky_way: **`:milky_way:`** |
+| :carousel_horse: **`:carousel_horse:`** | :ferris_wheel: **`:ferris_wheel:`** | :roller_coaster: **`:roller_coaster:`** |
+| :barber: **`:barber:`** | :circus_tent: **`:circus_tent:`** 
 ### transport-ground
 | :steam_locomotive: **`:steam_locomotive:`** | :railway_car: **`:railway_car:`** | :bullettrain_side: **`:bullettrain_side:`** 
 |:---:|:---:|:---:|
@@ -403,9 +405,9 @@
 | :oncoming_automobile: **`:oncoming_automobile:`** | :blue_car: **`:blue_car:`** | :truck: **`:truck:`** |
 | :articulated_lorry: **`:articulated_lorry:`** | :tractor: **`:tractor:`** | :bike: **`:bike:`** |
 | :kick_scooter: **`:kick_scooter:`** | :motor_scooter: **`:motor_scooter:`** | :busstop: **`:busstop:`** |
-| :motorway: **`:motorway:`** | :railway_track: **`:railway_track:`** | :fuelpump: **`:fuelpump:`** |
-| :rotating_light: **`:rotating_light:`** | :traffic_light: **`:traffic_light:`** | :vertical_traffic_light: **`:vertical_traffic_light:`** |
-| :construction: **`:construction:`** | :stop_sign: **`:stop_sign:`** 
+| :motorway: **`:motorway:`** | :railway_track: **`:railway_track:`** | :oil_drum: **`:oil_drum:`** |
+| :fuelpump: **`:fuelpump:`** | :rotating_light: **`:rotating_light:`** | :traffic_light: **`:traffic_light:`** |
+| :vertical_traffic_light: **`:vertical_traffic_light:`** | :stop_sign: **`:stop_sign:`** | :construction: **`:construction:`** 
 ### transport-water
 | :anchor: **`:anchor:`** | :boat: **`:boat:`** | :sailboat: **`:sailboat:`** 
 |:---:|:---:|:---:|
@@ -418,10 +420,8 @@
 | :suspension_railway: **`:suspension_railway:`** | :mountain_cableway: **`:mountain_cableway:`** | :aerial_tramway: **`:aerial_tramway:`** |
 | :satellite: **`:satellite:`** | :artificial_satellite: **`:artificial_satellite:`** | :rocket: **`:rocket:`** 
 ### hotel
-| :bellhop_bell: **`:bellhop_bell:`** | :door: **`:door:`** | :bed: **`:bed:`** 
-|:---:|:---:|:---:|
-| :couch_and_lamp: **`:couch_and_lamp:`** | :toilet: **`:toilet:`** | :shower: **`:shower:`** |
-| :bathtub: **`:bathtub:`** 
+| :bellhop_bell: **`:bellhop_bell:`** 
+|:---:
 ### time
 | :hourglass: **`:hourglass:`** | :hourglass_flowing_sand: **`:hourglass_flowing_sand:`** | :watch: **`:watch:`** 
 |:---:|:---:|:---:|
@@ -471,18 +471,21 @@
 | :soccer: **`:soccer:`** | :baseball: **`:baseball:`** | :basketball: **`:basketball:`** 
 |:---:|:---:|:---:|
 | :volleyball: **`:volleyball:`** | :football: **`:football:`** | :rugby_football: **`:rugby_football:`** |
-| :tennis: **`:tennis:`** | :8ball: **`:8ball:`** | :bowling: **`:bowling:`** |
-| :field_hockey: **`:field_hockey:`** | :ice_hockey: **`:ice_hockey:`** | :ping_pong: **`:ping_pong:`** |
-| :badminton: **`:badminton:`** | :boxing_glove: **`:boxing_glove:`** | :martial_arts_uniform: **`:martial_arts_uniform:`** |
-| :goal_net: **`:goal_net:`** | :dart: **`:dart:`** | :golf: **`:golf:`** |
-| :ice_skate: **`:ice_skate:`** | :fishing_pole_and_fish: **`:fishing_pole_and_fish:`** | :running_shirt_with_sash: **`:running_shirt_with_sash:`** |
-| :ski: **`:ski:`** 
+| :tennis: **`:tennis:`** | :bowling: **`:bowling:`** | :field_hockey: **`:field_hockey:`** |
+| :ice_hockey: **`:ice_hockey:`** | :ping_pong: **`:ping_pong:`** | :badminton: **`:badminton:`** |
+| :boxing_glove: **`:boxing_glove:`** | :martial_arts_uniform: **`:martial_arts_uniform:`** | :goal_net: **`:goal_net:`** |
+| :golf: **`:golf:`** | :ice_skate: **`:ice_skate:`** | :fishing_pole_and_fish: **`:fishing_pole_and_fish:`** |
+| :running_shirt_with_sash: **`:running_shirt_with_sash:`** | :ski: **`:ski:`** 
 ### game
-| :video_game: **`:video_game:`** | :joystick: **`:joystick:`** | :game_die: **`:game_die:`** 
+| :dart: **`:dart:`** | :8ball: **`:8ball:`** | :crystal_ball: **`:crystal_ball:`** 
 |:---:|:---:|:---:|
-| :spades: **`:spades:`** | :hearts: **`:hearts:`** | :diamonds: **`:diamonds:`** |
-| :clubs: **`:clubs:`** | :black_joker: **`:black_joker:`** | :mahjong: **`:mahjong:`** |
-| :flower_playing_cards: **`:flower_playing_cards:`** 
+| :video_game: **`:video_game:`** | :joystick: **`:joystick:`** | :slot_machine: **`:slot_machine:`** |
+| :game_die: **`:game_die:`** | :spades: **`:spades:`** | :hearts: **`:hearts:`** |
+| :diamonds: **`:diamonds:`** | :clubs: **`:clubs:`** | :black_joker: **`:black_joker:`** |
+| :mahjong: **`:mahjong:`** | :flower_playing_cards: **`:flower_playing_cards:`** 
+### arts & crafts
+| :performing_arts: **`:performing_arts:`** | :framed_picture: **`:framed_picture:`** | :art: **`:art:`** 
+|:---:|:---:|:---:
 # Objects
 ### sound
 | :mute: **`:mute:`** | :speaker: **`:speaker:`** | :sound: **`:sound:`** 
@@ -514,9 +517,9 @@
 |:---:|:---:|:---:|
 | :clapper: **`:clapper:`** | :tv: **`:tv:`** | :camera: **`:camera:`** |
 | :camera_flash: **`:camera_flash:`** | :video_camera: **`:video_camera:`** | :vhs: **`:vhs:`** |
-| :mag: **`:mag:`** | :mag_right: **`:mag_right:`** | :microscope: **`:microscope:`** |
-| :telescope: **`:telescope:`** | :candle: **`:candle:`** | :bulb: **`:bulb:`** |
-| :flashlight: **`:flashlight:`** | :izakaya_lantern: **`:izakaya_lantern:`** | :lantern: **`:lantern:`** 
+| :mag: **`:mag:`** | :mag_right: **`:mag_right:`** | :candle: **`:candle:`** |
+| :bulb: **`:bulb:`** | :flashlight: **`:flashlight:`** | :izakaya_lantern: **`:izakaya_lantern:`** |
+| :lantern: **`:lantern:`** 
 ### book-paper
 | :notebook_with_decorative_cover: **`:notebook_with_decorative_cover:`** | :closed_book: **`:closed_book:`** | :book: **`:book:`** 
 |:---:|:---:|:---:|
@@ -563,16 +566,23 @@
 | :hammer_and_wrench: **`:hammer_and_wrench:`** | :dagger: **`:dagger:`** | :crossed_swords: **`:crossed_swords:`** |
 | :gun: **`:gun:`** | :bow_and_arrow: **`:bow_and_arrow:`** | :shield: **`:shield:`** |
 | :wrench: **`:wrench:`** | :nut_and_bolt: **`:nut_and_bolt:`** | :gear: **`:gear:`** |
-| :clamp: **`:clamp:`** | :alembic: **`:alembic:`** | :balance_scale: **`:balance_scale:`** |
-| :link: **`:link:`** | :chains: **`:chains:`** 
+| :clamp: **`:clamp:`** | :balance_scale: **`:balance_scale:`** | :link: **`:link:`** |
+| :chains: **`:chains:`** 
+### science
+| :alembic: **`:alembic:`** | :microscope: **`:microscope:`** | :telescope: **`:telescope:`** 
+|:---:|:---:|:---:
 ### medical
 | :syringe: **`:syringe:`** | :pill: **`:pill:`** 
 |:---:|:---:
+### household
+| :door: **`:door:`** | :bed: **`:bed:`** | :couch_and_lamp: **`:couch_and_lamp:`** 
+|:---:|:---:|:---:|
+| :toilet: **`:toilet:`** | :shower: **`:shower:`** | :bathtub: **`:bathtub:`** |
+| :shopping_cart: **`:shopping_cart:`** 
 ### other-object
 | :smoking: **`:smoking:`** | :coffin: **`:coffin:`** | :funeral_urn: **`:funeral_urn:`** 
 |:---:|:---:|:---:|
-| :moyai: **`:moyai:`** | :oil_drum: **`:oil_drum:`** | :crystal_ball: **`:crystal_ball:`** |
-| :shopping_cart: **`:shopping_cart:`** 
+| :moyai: **`:moyai:`** 
 # Symbols
 ### transport-sign
 | :atm: **`:atm:`** | :put_litter_in_its_place: **`:put_litter_in_its_place:`** | :potable_water: **`:potable_water:`** 
