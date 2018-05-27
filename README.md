@@ -3,7 +3,7 @@
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :five: :zero: :eight: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 5/20/2018 8:04:04 PM</p>
+### <p align="center">Last updated (UTC) 5/27/2018 8:05:00 PM</p>
 * [Smileys & People](#smileys--people)
 	 * [face-positive](#face-positive)
 	 * [face-neutral](#face-neutral)
