@@ -1,42 +1,68 @@
-<html>
-<title>Emoji List</title>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css">
-    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Emoji List</title>
+
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body class="brown lighten-5">
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">AllGithubEmojis</a>
-
-        </div>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center">AllGithubEmojis</a>
+            </div>
+        </nav>
+    </header>
     <br>
     <main class="container">
         <div class="row">
-            <div class="col l4 offset-l4 text-center center">
+            <div class="col s12 center">
                 <a class="github-button" href="https://github.com/jzeferino" data-size="large" data-show-count="true" aria-label="Follow @jzeferino on GitHub">Follow @jzeferino</a>
-                <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a>
-                <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a>
+                <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye" data-size="large"
+                    data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a>
+                <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star" data-size="large" data-show-count="true"
+                    aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a>
             </div>
-            <br>
-            <br>
-            <div class="row">
-                <div class="col l4 offset-l4 ">
+        </div>
+        <div class="row">
+            <div class="col s12">
+                <div class="input-field search-group">
+                    <i class="material-icons prefix">search</i>
                     <input type="search" id="search-field" class="form-control" placeholder="Search or type Code" />
                 </div>
             </div>
-            <div class="row">
-                <div id="main">
-
+        </div>
+        <div class="row">
+            <div id="main">
+            </div>
+            <div id="loading">
+                <div class="col s12 center">
+                    <div class="preloader-wrapper active">
+                        <div class="spinner-layer spinner-red-only">
+                            <div class="circle-clipper left">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="gap-patch">
+                                <div class="circle"></div>
+                            </div>
+                            <div class="circle-clipper right">
+                                <div class="circle"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
     </main>
-
     <footer class="page-footer">
         <div class="container">
             <div class="row">
@@ -44,14 +70,23 @@
                     <h5 class="white-text">AllGithubEmojis</h5>
                     <p class="grey-text text-lighten-4">A list of all supported github emojis updated weekly.</p>
                     <p class="grey-text text-lighten-4">Automatically generated from github emoji API.</p>
-                    <p class="grey-text text-lighten-4">Grouped following official emoji <a href="http://unicode.org/emoji/charts/full-emoji-list.html" class="blue-grey-text dark-5">convention</a>.</p>
+                    <p class="grey-text text-lighten-4">Grouped following official emoji
+                        <a href="http://unicode.org/emoji/charts/full-emoji-list.html">convention</a>.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-
                     <ul>
-                        <li><a class="github-button" href="https://github.com/jzeferino" data-size="large" data-show-count="true" aria-label="Follow @ntkme on GitHub">Follow @jzeferino</a></li>
-                        <li><a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a></li>
-                        <li><a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a></li>
+                        <li>
+                            <a class="github-button" href="https://github.com/jzeferino" data-size="large" data-show-count="true"
+                                aria-label="Follow @ntkme on GitHub">Follow @jzeferino</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye"
+                                data-size="large" data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a>
+                        </li>
+                        <li>
+                            <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star"
+                                data-size="large" data-show-count="true" aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -62,17 +97,17 @@
             </div>
         </div>
     </footer>
-
-    <a href="#" id="scroll-top" class="back-to-top" style="display: inline;">
-        <i class="fa fa-arrow-circle-up"></i>
-    </a>
+    <div>
+        <a href="#" id="scroll-top" class="back-to-top" style="display: none;">
+            <i class="material-icons medium">vertical_align_top</i>
+        </a>
+    </div>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/clipboard.min.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/materialize.min.js"></script>
-    <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
