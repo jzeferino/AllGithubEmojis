@@ -116,3 +116,21 @@ body .back-to-top {
   bottom: 10%;
   right: 7%;
 }
+
+#main-content {
+  display: none;
+}
+
+#loading {
+  height: 500px;
+}
+
+#loading > div {
+  width: 100%;
+}
+
+.page-footer.loading {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

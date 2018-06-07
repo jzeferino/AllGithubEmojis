@@ -24,46 +24,50 @@
     </header>
     <br>
     <main class="container">
-        <div class="row">
-            <div class="col s12 center">
-                <a class="github-button" href="https://github.com/jzeferino" data-size="large" data-show-count="true" aria-label="Follow @jzeferino on GitHub">Follow @jzeferino</a>
-                <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye" data-size="large"
-                    data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a>
-                <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star" data-size="large" data-show-count="true"
-                    aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12">
-                <div class="input-field search-group">
-                    <i class="material-icons prefix">search</i>
-                    <input type="search" id="search-field" class="form-control" placeholder="Search or type Code" />
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div id="main">
-            </div>
-            <div id="loading">
-                <div class="col s12 center">
-                    <div class="preloader-wrapper active">
-                        <div class="spinner-layer spinner-red-only">
-                            <div class="circle-clipper left">
-                                <div class="circle"></div>
-                            </div>
-                            <div class="gap-patch">
-                                <div class="circle"></div>
-                            </div>
-                            <div class="circle-clipper right">
-                                <div class="circle"></div>
-                            </div>
+        <div id="loading" class="valign-wrapper center">
+            <div>
+                <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div id="main-content">
+            <div class="row">
+                <div class="col s12 center">
+                    <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-size="large" data-show-count="false" aria-label="View on GitHub">View on GitHub</a>
+                    <a class="github-button" href="https://github.com/jzeferino" data-size="large" data-show-count="true" aria-label="Follow @jzeferino on GitHub">Follow @jzeferino</a>
+                    <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye" data-size="large"
+                        data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a>
+                    <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star" data-size="large" data-show-count="true"
+                        aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12">
+                    <div class="input-field search-group">
+                        <i class="material-icons prefix">search</i>
+                        <input type="search" id="search-field" class="form-control" />
+                        <label for="search-field">Search or type Code</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="main">
+                </div>
+            </div>
+        </div>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer loading">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -73,27 +77,11 @@
                     <p class="grey-text text-lighten-4">Grouped following official emoji
                         <a href="http://unicode.org/emoji/charts/full-emoji-list.html">convention</a>.</p>
                 </div>
-                <div class="col l4 offset-l2 s12">
-                    <ul>
-                        <li>
-                            <a class="github-button" href="https://github.com/jzeferino" data-size="large" data-show-count="true"
-                                aria-label="Follow @ntkme on GitHub">Follow @jzeferino</a>
-                        </li>
-                        <li>
-                            <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis/subscription" data-icon="octicon-eye"
-                                data-size="large" data-show-count="true" aria-label="Watch jzeferino/AllGithubEmojis on GitHub">Watch</a>
-                        </li>
-                        <li>
-                            <a class="github-button" href="https://github.com/jzeferino/AllGithubEmojis" data-icon="octicon-star"
-                                data-size="large" data-show-count="true" aria-label="Star jzeferino/AllGithubEmojis on GitHub">Star</a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2017 AllGithubEmojis
+                © <script> document.write(new Date().getFullYear()) </script> AllGithubEmojis
             </div>
         </div>
     </footer>

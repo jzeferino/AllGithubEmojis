@@ -3,7 +3,7 @@ $(document).ready(function (e) {
 
   // READ JSON
   $.getJSON('emojis.json', { async: true }, function (json) {
-    document.getElementById('main').innerHTML = ''
+    document.getElementById('main-content').style.display = 'block'
     document.getElementById('loading').style.display = 'none'
 
     // LOOP GROUPS
@@ -23,7 +23,7 @@ $(document).ready(function (e) {
           var emojiElement = document.createElement('div')
 
           emojiElement.className = 'emoji col l2 m2 s6'
-          emojiElement.innerHTML = "<span class='flow-text'>" + emoji.Name + "</span><div ><img alt='" + emoji.Name + "' title='Click to copy to clipboard' src='" + emoji.Url + "' /><p>:" + emoji.Code + ':</p></div>'
+          emojiElement.innerHTML = "<span class='flow-text' title='" + emoji.Name.toLocaleUpperCase() + "'>" + emoji.Name + "</span><div><img alt='" + emoji.Name + "' title='Click to copy to clipboard' src='" + emoji.Url + "' /><p>:" + emoji.Code + ':</p></div>'
 
           availableTags.push(emoji.Name)
 
@@ -34,6 +34,8 @@ $(document).ready(function (e) {
       })
 
       document.getElementById('main').append(groupElement)
+
+      $('.page-footer').removeClass('loading')
     })
 
     var copyCode = new Clipboard('.emoji', {
@@ -69,25 +71,34 @@ $(document).ready(function (e) {
       }
     })
 
-    $('#search-field').on('input', function (e) {
-      $('div.emoji, .sub-group, .group').removeClass('hidden')
-      $('#main').find('.no-results').remove()
+    var idTimer
 
+    $('#search-field').on('input', function () {
       var search = $(this).val()
-      if (search !== '') {
-        search = search.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
-        search = search.toLowerCase()
 
-        $('div.emoji span:not(' + search + ')').closest('div.emoji').addClass('hidden')
-        $('div.emoji span:contains(' + search + ')').closest('div.emoji').removeClass('hidden')
+      clearTimeout(idTimer)
 
-        hideEmptySection('.sub-group')
-        hideEmptySection('.group', function (arraySections) {
-          if (arraySections.toArray().every(function (e) { return e })) {
-            $('#main').append("<p class='no-results'>No results found</p>")
-          }
-        })
-      }
+      idTimer = setTimeout(function () {
+        $('.sub-group, .group').removeClass('hidden')
+        $('#main').find('.no-results').remove()
+
+        if (search !== '') {
+          search = search.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          search = search.toLocaleLowerCase()
+
+          $('div.emoji span:not(' + search + ')').closest('div.emoji').addClass('hidden')
+          $('div.emoji span:contains(' + search + ')').closest('div.emoji').removeClass('hidden')
+
+          hideEmptySection('.sub-group')
+          hideEmptySection('.group', function (arraySections) {
+            if (arraySections.toArray().every(function (e) { return e })) {
+              $('#main').append("<p class='no-results'>No results found</p>")
+            }
+          })
+        } else {
+          $('.emoji').removeClass('hidden')
+        }
+      }, 200)
     })
   })
 })
