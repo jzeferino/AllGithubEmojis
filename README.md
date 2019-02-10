@@ -3,26 +3,41 @@
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :five: :zero: :eight: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 2/3/2019 8:29:42 PM</p>
-* [Smileys & People](#smileys--people)
-	 * [face-positive](#face-positive)
-	 * [face-neutral](#face-neutral)
+### <p align="center">Last updated (UTC) 2/10/2019 8:32:00 PM</p>
+* [Smileys & Emotion](#smileys--emotion)
+	 * [face-smiling](#face-smiling)
+	 * [face-affection](#face-affection)
+	 * [face-tongue](#face-tongue)
+	 * [face-hand](#face-hand)
+	 * [face-neutral-skeptical](#face-neutral-skeptical)
+	 * [face-sleepy](#face-sleepy)
+	 * [face-unwell](#face-unwell)
+	 * [face-hat](#face-hat)
+	 * [face-glasses](#face-glasses)
+	 * [face-concerned](#face-concerned)
 	 * [face-negative](#face-negative)
-	 * [face-sick](#face-sick)
-	 * [face-role](#face-role)
-	 * [face-fantasy](#face-fantasy)
+	 * [face-costume](#face-costume)
 	 * [cat-face](#cat-face)
 	 * [monkey-face](#monkey-face)
+	 * [emotion](#emotion)
+* [People & Body](#people--body)
+	 * [hand-fingers-open](#hand-fingers-open)
+	 * [hand-fingers-partial](#hand-fingers-partial)
+	 * [hand-single-finger](#hand-single-finger)
+	 * [hand-fingers-closed](#hand-fingers-closed)
+	 * [hands](#hands)
+	 * [hand-prop](#hand-prop)
+	 * [body-parts](#body-parts)
 	 * [person](#person)
+	 * [person-gesture](#person-gesture)
 	 * [person-role](#person-role)
 	 * [person-fantasy](#person-fantasy)
-	 * [person-gesture](#person-gesture)
 	 * [person-activity](#person-activity)
 	 * [person-sport](#person-sport)
+	 * [person-resting](#person-resting)
 	 * [family](#family)
-	 * [body](#body)
-	 * [emotion](#emotion)
-	 * [clothing](#clothing)
+	 * [person-symbol](#person-symbol)
+* [Component](#component)
 * [Animals & Nature](#animals--nature)
 	 * [animal-mammal](#animal-mammal)
 	 * [animal-bird](#animal-bird)
@@ -37,6 +52,7 @@
 	 * [food-vegetable](#food-vegetable)
 	 * [food-prepared](#food-prepared)
 	 * [food-asian](#food-asian)
+	 * [food-marine](#food-marine)
 	 * [food-sweet](#food-sweet)
 	 * [drink](#drink)
 	 * [dishware](#dishware)
@@ -59,6 +75,7 @@
 	 * [game](#game)
 	 * [arts & crafts](#arts--crafts)
 * [Objects](#objects)
+	 * [clothing](#clothing)
 	 * [sound](#sound)
 	 * [music](#music)
 	 * [musical-instrument](#musical-instrument)
@@ -92,51 +109,65 @@
 	 * [country-flag](#country-flag)
 * [Miscellaneous](#miscellaneous)
 	 * [other](#other)
-# Smileys & People
-### face-positive
-| :grinning: **`:grinning:`** | :grin: **`:grin:`** | :joy: **`:joy:`** 
+# Smileys & Emotion
+### face-smiling
+| :grinning: **`:grinning:`** | :smiley: **`:smiley:`** | :smile: **`:smile:`** 
 |:---:|:---:|:---:|
-| :rofl: **`:rofl:`** | :smiley: **`:smiley:`** | :smile: **`:smile:`** |
-| :sweat_smile: **`:sweat_smile:`** | :laughing: **`:laughing:`** | :satisfied: **`:satisfied:`** |
-| :wink: **`:wink:`** | :blush: **`:blush:`** | :yum: **`:yum:`** |
-| :sunglasses: **`:sunglasses:`** | :heart_eyes: **`:heart_eyes:`** | :kissing_heart: **`:kissing_heart:`** |
-| :kissing: **`:kissing:`** | :kissing_smiling_eyes: **`:kissing_smiling_eyes:`** | :kissing_closed_eyes: **`:kissing_closed_eyes:`** |
-| :relaxed: **`:relaxed:`** | :slightly_smiling_face: **`:slightly_smiling_face:`** | :hugs: **`:hugs:`** 
-### face-neutral
-| :thinking: **`:thinking:`** | :neutral_face: **`:neutral_face:`** | :expressionless: **`:expressionless:`** 
+| :grin: **`:grin:`** | :laughing: **`:laughing:`** | :satisfied: **`:satisfied:`** |
+| :sweat_smile: **`:sweat_smile:`** | :rofl: **`:rofl:`** | :joy: **`:joy:`** |
+| :slightly_smiling_face: **`:slightly_smiling_face:`** | :upside_down_face: **`:upside_down_face:`** | :wink: **`:wink:`** |
+| :blush: **`:blush:`** | :innocent: **`:innocent:`** 
+### face-affection
+| :heart_eyes: **`:heart_eyes:`** | :kissing_heart: **`:kissing_heart:`** | :kissing: **`:kissing:`** 
 |:---:|:---:|:---:|
-| :no_mouth: **`:no_mouth:`** | :roll_eyes: **`:roll_eyes:`** | :smirk: **`:smirk:`** |
-| :persevere: **`:persevere:`** | :disappointed_relieved: **`:disappointed_relieved:`** | :open_mouth: **`:open_mouth:`** |
-| :zipper_mouth_face: **`:zipper_mouth_face:`** | :hushed: **`:hushed:`** | :sleepy: **`:sleepy:`** |
-| :tired_face: **`:tired_face:`** | :sleeping: **`:sleeping:`** | :relieved: **`:relieved:`** |
-| :stuck_out_tongue: **`:stuck_out_tongue:`** | :stuck_out_tongue_winking_eye: **`:stuck_out_tongue_winking_eye:`** | :stuck_out_tongue_closed_eyes: **`:stuck_out_tongue_closed_eyes:`** |
-| :drooling_face: **`:drooling_face:`** | :unamused: **`:unamused:`** | :sweat: **`:sweat:`** |
-| :pensive: **`:pensive:`** | :confused: **`:confused:`** | :upside_down_face: **`:upside_down_face:`** |
-| :money_mouth_face: **`:money_mouth_face:`** | :astonished: **`:astonished:`** 
-### face-negative
-| :frowning_face: **`:frowning_face:`** | :slightly_frowning_face: **`:slightly_frowning_face:`** | :confounded: **`:confounded:`** 
+| :relaxed: **`:relaxed:`** | :kissing_closed_eyes: **`:kissing_closed_eyes:`** | :kissing_smiling_eyes: **`:kissing_smiling_eyes:`** 
+### face-tongue
+| :yum: **`:yum:`** | :stuck_out_tongue: **`:stuck_out_tongue:`** | :stuck_out_tongue_winking_eye: **`:stuck_out_tongue_winking_eye:`** 
 |:---:|:---:|:---:|
-| :disappointed: **`:disappointed:`** | :worried: **`:worried:`** | :triumph: **`:triumph:`** |
-| :cry: **`:cry:`** | :sob: **`:sob:`** | :frowning: **`:frowning:`** |
-| :anguished: **`:anguished:`** | :fearful: **`:fearful:`** | :weary: **`:weary:`** |
-| :grimacing: **`:grimacing:`** | :cold_sweat: **`:cold_sweat:`** | :scream: **`:scream:`** |
-| :flushed: **`:flushed:`** | :dizzy_face: **`:dizzy_face:`** | :pout: **`:pout:`** |
-| :rage: **`:rage:`** | :angry: **`:angry:`** 
-### face-sick
+| :stuck_out_tongue_closed_eyes: **`:stuck_out_tongue_closed_eyes:`** | :money_mouth_face: **`:money_mouth_face:`** 
+### face-hand
+| :hugs: **`:hugs:`** | :thinking: **`:thinking:`** 
+|:---:|:---:
+### face-neutral-skeptical
+| :zipper_mouth_face: **`:zipper_mouth_face:`** | :neutral_face: **`:neutral_face:`** | :expressionless: **`:expressionless:`** 
+|:---:|:---:|:---:|
+| :no_mouth: **`:no_mouth:`** | :smirk: **`:smirk:`** | :unamused: **`:unamused:`** |
+| :roll_eyes: **`:roll_eyes:`** | :grimacing: **`:grimacing:`** | :lying_face: **`:lying_face:`** 
+### face-sleepy
+| :relieved: **`:relieved:`** | :pensive: **`:pensive:`** | :sleepy: **`:sleepy:`** 
+|:---:|:---:|:---:|
+| :drooling_face: **`:drooling_face:`** | :sleeping: **`:sleeping:`** 
+### face-unwell
 | :mask: **`:mask:`** | :face_with_thermometer: **`:face_with_thermometer:`** | :face_with_head_bandage: **`:face_with_head_bandage:`** 
 |:---:|:---:|:---:|
-| :nauseated_face: **`:nauseated_face:`** | :sneezing_face: **`:sneezing_face:`** 
-### face-role
-| :innocent: **`:innocent:`** | :cowboy_hat_face: **`:cowboy_hat_face:`** | :lying_face: **`:lying_face:`** 
+| :nauseated_face: **`:nauseated_face:`** | :sneezing_face: **`:sneezing_face:`** | :dizzy_face: **`:dizzy_face:`** 
+### face-hat
+| :cowboy_hat_face: **`:cowboy_hat_face:`** 
+|:---:
+### face-glasses
+| :sunglasses: **`:sunglasses:`** | :nerd_face: **`:nerd_face:`** 
+|:---:|:---:
+### face-concerned
+| :confused: **`:confused:`** | :worried: **`:worried:`** | :slightly_frowning_face: **`:slightly_frowning_face:`** 
 |:---:|:---:|:---:|
-| :nerd_face: **`:nerd_face:`** 
-### face-fantasy
-| :smiling_imp: **`:smiling_imp:`** | :imp: **`:imp:`** | :clown_face: **`:clown_face:`** 
+| :frowning_face: **`:frowning_face:`** | :open_mouth: **`:open_mouth:`** | :hushed: **`:hushed:`** |
+| :astonished: **`:astonished:`** | :flushed: **`:flushed:`** | :frowning: **`:frowning:`** |
+| :anguished: **`:anguished:`** | :fearful: **`:fearful:`** | :cold_sweat: **`:cold_sweat:`** |
+| :disappointed_relieved: **`:disappointed_relieved:`** | :cry: **`:cry:`** | :sob: **`:sob:`** |
+| :scream: **`:scream:`** | :confounded: **`:confounded:`** | :persevere: **`:persevere:`** |
+| :disappointed: **`:disappointed:`** | :sweat: **`:sweat:`** | :weary: **`:weary:`** |
+| :tired_face: **`:tired_face:`** 
+### face-negative
+| :triumph: **`:triumph:`** | :pout: **`:pout:`** | :rage: **`:rage:`** 
 |:---:|:---:|:---:|
-| :japanese_ogre: **`:japanese_ogre:`** | :japanese_goblin: **`:japanese_goblin:`** | :skull: **`:skull:`** |
-| :skull_and_crossbones: **`:skull_and_crossbones:`** | :ghost: **`:ghost:`** | :alien: **`:alien:`** |
-| :space_invader: **`:space_invader:`** | :robot: **`:robot:`** | :hankey: **`:hankey:`** |
-| :poop: **`:poop:`** | :shit: **`:shit:`** 
+| :angry: **`:angry:`** | :smiling_imp: **`:smiling_imp:`** | :imp: **`:imp:`** |
+| :skull: **`:skull:`** | :skull_and_crossbones: **`:skull_and_crossbones:`** 
+### face-costume
+| :hankey: **`:hankey:`** | :poop: **`:poop:`** | :shit: **`:shit:`** 
+|:---:|:---:|:---:|
+| :clown_face: **`:clown_face:`** | :japanese_ogre: **`:japanese_ogre:`** | :japanese_goblin: **`:japanese_goblin:`** |
+| :ghost: **`:ghost:`** | :alien: **`:alien:`** | :space_invader: **`:space_invader:`** |
+| :robot: **`:robot:`** 
 ### cat-face
 | :smiley_cat: **`:smiley_cat:`** | :smile_cat: **`:smile_cat:`** | :joy_cat: **`:joy_cat:`** 
 |:---:|:---:|:---:|
@@ -145,11 +176,64 @@
 ### monkey-face
 | :see_no_evil: **`:see_no_evil:`** | :hear_no_evil: **`:hear_no_evil:`** | :speak_no_evil: **`:speak_no_evil:`** 
 |:---:|:---:|:---:
+### emotion
+| :kiss: **`:kiss:`** | :love_letter: **`:love_letter:`** | :cupid: **`:cupid:`** 
+|:---:|:---:|:---:|
+| :gift_heart: **`:gift_heart:`** | :sparkling_heart: **`:sparkling_heart:`** | :heartpulse: **`:heartpulse:`** |
+| :heartbeat: **`:heartbeat:`** | :revolving_hearts: **`:revolving_hearts:`** | :two_hearts: **`:two_hearts:`** |
+| :heart_decoration: **`:heart_decoration:`** | :heavy_heart_exclamation: **`:heavy_heart_exclamation:`** | :broken_heart: **`:broken_heart:`** |
+| :heart: **`:heart:`** | :yellow_heart: **`:yellow_heart:`** | :green_heart: **`:green_heart:`** |
+| :blue_heart: **`:blue_heart:`** | :purple_heart: **`:purple_heart:`** | :black_heart: **`:black_heart:`** |
+| :100: **`:100:`** | :anger: **`:anger:`** | :boom: **`:boom:`** |
+| :collision: **`:collision:`** | :dizzy: **`:dizzy:`** | :sweat_drops: **`:sweat_drops:`** |
+| :dash: **`:dash:`** | :hole: **`:hole:`** | :bomb: **`:bomb:`** |
+| :speech_balloon: **`:speech_balloon:`** | :right_anger_bubble: **`:right_anger_bubble:`** | :thought_balloon: **`:thought_balloon:`** |
+| :zzz: **`:zzz:`** 
+# People & Body
+### hand-fingers-open
+| :wave: **`:wave:`** | :raised_back_of_hand: **`:raised_back_of_hand:`** | :raised_hand_with_fingers_splayed: **`:raised_hand_with_fingers_splayed:`** 
+|:---:|:---:|:---:|
+| :hand: **`:hand:`** | :raised_hand: **`:raised_hand:`** | :vulcan_salute: **`:vulcan_salute:`** 
+### hand-fingers-partial
+| :ok_hand: **`:ok_hand:`** | :v: **`:v:`** | :crossed_fingers: **`:crossed_fingers:`** 
+|:---:|:---:|:---:|
+| :metal: **`:metal:`** | :call_me_hand: **`:call_me_hand:`** 
+### hand-single-finger
+| :point_left: **`:point_left:`** | :point_right: **`:point_right:`** | :point_up_2: **`:point_up_2:`** 
+|:---:|:---:|:---:|
+| :fu: **`:fu:`** | :middle_finger: **`:middle_finger:`** | :point_down: **`:point_down:`** |
+| :point_up: **`:point_up:`** 
+### hand-fingers-closed
+| :+1: **`:+1:`** | :thumbsup: **`:thumbsup:`** | :-1: **`:-1:`** 
+|:---:|:---:|:---:|
+| :thumbsdown: **`:thumbsdown:`** | :fist: **`:fist:`** | :fist_raised: **`:fist_raised:`** |
+| :facepunch: **`:facepunch:`** | :fist_oncoming: **`:fist_oncoming:`** | :punch: **`:punch:`** |
+| :fist_left: **`:fist_left:`** | :fist_right: **`:fist_right:`** 
+### hands
+| :clap: **`:clap:`** | :raised_hands: **`:raised_hands:`** | :open_hands: **`:open_hands:`** 
+|:---:|:---:|:---:|
+| :handshake: **`:handshake:`** | :pray: **`:pray:`** 
+### hand-prop
+| :writing_hand: **`:writing_hand:`** | :nail_care: **`:nail_care:`** | :selfie: **`:selfie:`** 
+|:---:|:---:|:---:
+### body-parts
+| :muscle: **`:muscle:`** | :ear: **`:ear:`** | :nose: **`:nose:`** 
+|:---:|:---:|:---:|
+| :eyes: **`:eyes:`** | :eye: **`:eye:`** | :tongue: **`:tongue:`** |
+| :lips: **`:lips:`** 
 ### person
 | :baby: **`:baby:`** | :boy: **`:boy:`** | :girl: **`:girl:`** 
 |:---:|:---:|:---:|
-| :man: **`:man:`** | :woman: **`:woman:`** | :older_man: **`:older_man:`** |
-| :older_woman: **`:older_woman:`** 
+| :blonde_man: **`:blonde_man:`** | :person_with_blond_hair: **`:person_with_blond_hair:`** | :man: **`:man:`** |
+| :woman: **`:woman:`** | :older_man: **`:older_man:`** | :older_woman: **`:older_woman:`** 
+### person-gesture
+| :frowning_woman: **`:frowning_woman:`** | :person_frowning: **`:person_frowning:`** | :person_with_pouting_face: **`:person_with_pouting_face:`** 
+|:---:|:---:|:---:|
+| :pouting_woman: **`:pouting_woman:`** | :ng_woman: **`:ng_woman:`** | :no_good: **`:no_good:`** |
+| :no_good_woman: **`:no_good_woman:`** | :ok_woman: **`:ok_woman:`** | :information_desk_person: **`:information_desk_person:`** |
+| :tipping_hand_woman: **`:tipping_hand_woman:`** | :raising_hand: **`:raising_hand:`** | :raising_hand_woman: **`:raising_hand_woman:`** |
+| :bow: **`:bow:`** | :bowing_man: **`:bowing_man:`** | :man_facepalming: **`:man_facepalming:`** |
+| :woman_facepalming: **`:woman_facepalming:`** | :man_shrugging: **`:man_shrugging:`** | :woman_shrugging: **`:woman_shrugging:`** 
 ### person-role
 | :man_health_worker: **`:man_health_worker:`** | :woman_health_worker: **`:woman_health_worker:`** | :man_student: **`:man_student:`** 
 |:---:|:---:|:---:|
@@ -166,28 +250,18 @@
 | :policeman: **`:policeman:`** | :detective: **`:detective:`** | :male_detective: **`:male_detective:`** |
 | :guardsman: **`:guardsman:`** | :construction_worker: **`:construction_worker:`** | :construction_worker_man: **`:construction_worker_man:`** |
 | :prince: **`:prince:`** | :princess: **`:princess:`** | :man_with_turban: **`:man_with_turban:`** |
-| :man_with_gua_pi_mao: **`:man_with_gua_pi_mao:`** | :blonde_man: **`:blonde_man:`** | :person_with_blond_hair: **`:person_with_blond_hair:`** |
-| :man_in_tuxedo: **`:man_in_tuxedo:`** | :bride_with_veil: **`:bride_with_veil:`** | :pregnant_woman: **`:pregnant_woman:`** 
+| :man_with_gua_pi_mao: **`:man_with_gua_pi_mao:`** | :man_in_tuxedo: **`:man_in_tuxedo:`** | :bride_with_veil: **`:bride_with_veil:`** |
+| :pregnant_woman: **`:pregnant_woman:`** 
 ### person-fantasy
 | :angel: **`:angel:`** | :santa: **`:santa:`** | :mrs_claus: **`:mrs_claus:`** 
 |:---:|:---:|:---:
-### person-gesture
-| :frowning_woman: **`:frowning_woman:`** | :person_frowning: **`:person_frowning:`** | :person_with_pouting_face: **`:person_with_pouting_face:`** 
-|:---:|:---:|:---:|
-| :pouting_woman: **`:pouting_woman:`** | :ng_woman: **`:ng_woman:`** | :no_good: **`:no_good:`** |
-| :no_good_woman: **`:no_good_woman:`** | :ok_woman: **`:ok_woman:`** | :information_desk_person: **`:information_desk_person:`** |
-| :tipping_hand_woman: **`:tipping_hand_woman:`** | :raising_hand: **`:raising_hand:`** | :raising_hand_woman: **`:raising_hand_woman:`** |
-| :bow: **`:bow:`** | :bowing_man: **`:bowing_man:`** | :man_facepalming: **`:man_facepalming:`** |
-| :woman_facepalming: **`:woman_facepalming:`** | :man_shrugging: **`:man_shrugging:`** | :woman_shrugging: **`:woman_shrugging:`** 
 ### person-activity
 | :massage: **`:massage:`** | :massage_woman: **`:massage_woman:`** | :haircut: **`:haircut:`** 
 |:---:|:---:|:---:|
 | :haircut_woman: **`:haircut_woman:`** | :walking: **`:walking:`** | :walking_man: **`:walking_man:`** |
 | :runner: **`:runner:`** | :running: **`:running:`** | :running_man: **`:running_man:`** |
-| :dancer: **`:dancer:`** | :man_dancing: **`:man_dancing:`** | :dancers: **`:dancers:`** |
-| :dancing_women: **`:dancing_women:`** | :bath: **`:bath:`** | :sleeping_bed: **`:sleeping_bed:`** |
-| :business_suit_levitating: **`:business_suit_levitating:`** | :speaking_head: **`:speaking_head:`** | :bust_in_silhouette: **`:bust_in_silhouette:`** |
-| :busts_in_silhouette: **`:busts_in_silhouette:`** 
+| :dancer: **`:dancer:`** | :man_dancing: **`:man_dancing:`** | :business_suit_levitating: **`:business_suit_levitating:`** |
+| :dancers: **`:dancers:`** | :dancing_women: **`:dancing_women:`** 
 ### person-sport
 | :person_fencing: **`:person_fencing:`** | :horse_racing: **`:horse_racing:`** | :skier: **`:skier:`** 
 |:---:|:---:|:---:|
@@ -195,13 +269,15 @@
 | :surfing_man: **`:surfing_man:`** | :rowboat: **`:rowboat:`** | :rowing_man: **`:rowing_man:`** |
 | :swimmer: **`:swimmer:`** | :swimming_man: **`:swimming_man:`** | :basketball_man: **`:basketball_man:`** |
 | :weight_lifting_man: **`:weight_lifting_man:`** | :bicyclist: **`:bicyclist:`** | :biking_man: **`:biking_man:`** |
-| :mountain_bicyclist: **`:mountain_bicyclist:`** | :mountain_biking_man: **`:mountain_biking_man:`** | :racing_car: **`:racing_car:`** |
-| :motorcycle: **`:motorcycle:`** | :man_cartwheeling: **`:man_cartwheeling:`** | :woman_cartwheeling: **`:woman_cartwheeling:`** |
-| :men_wrestling: **`:men_wrestling:`** | :women_wrestling: **`:women_wrestling:`** | :man_playing_water_polo: **`:man_playing_water_polo:`** |
-| :woman_playing_water_polo: **`:woman_playing_water_polo:`** | :man_playing_handball: **`:man_playing_handball:`** | :woman_playing_handball: **`:woman_playing_handball:`** |
-| :man_juggling: **`:man_juggling:`** | :woman_juggling: **`:woman_juggling:`** 
+| :mountain_bicyclist: **`:mountain_bicyclist:`** | :mountain_biking_man: **`:mountain_biking_man:`** | :man_cartwheeling: **`:man_cartwheeling:`** |
+| :woman_cartwheeling: **`:woman_cartwheeling:`** | :men_wrestling: **`:men_wrestling:`** | :women_wrestling: **`:women_wrestling:`** |
+| :man_playing_water_polo: **`:man_playing_water_polo:`** | :woman_playing_water_polo: **`:woman_playing_water_polo:`** | :man_playing_handball: **`:man_playing_handball:`** |
+| :woman_playing_handball: **`:woman_playing_handball:`** | :man_juggling: **`:man_juggling:`** | :woman_juggling: **`:woman_juggling:`** 
+### person-resting
+| :bath: **`:bath:`** | :sleeping_bed: **`:sleeping_bed:`** 
+|:---:|:---:
 ### family
-| :couple: **`:couple:`** | :two_men_holding_hands: **`:two_men_holding_hands:`** | :two_women_holding_hands: **`:two_women_holding_hands:`** 
+| :two_women_holding_hands: **`:two_women_holding_hands:`** | :couple: **`:couple:`** | :two_men_holding_hands: **`:two_men_holding_hands:`** 
 |:---:|:---:|:---:|
 | :couplekiss_man_woman: **`:couplekiss_man_woman:`** | :couple_with_heart: **`:couple_with_heart:`** | :couple_with_heart_woman_man: **`:couple_with_heart_woman_man:`** |
 | :couple_with_heart_man_man: **`:couple_with_heart_man_man:`** | :couple_with_heart_woman_woman: **`:couple_with_heart_woman_woman:`** | :family: **`:family:`** |
@@ -214,47 +290,11 @@
 | :family_man_girl_boy: **`:family_man_girl_boy:`** | :family_man_girl_girl: **`:family_man_girl_girl:`** | :family_woman_boy: **`:family_woman_boy:`** |
 | :family_woman_boy_boy: **`:family_woman_boy_boy:`** | :family_woman_girl: **`:family_woman_girl:`** | :family_woman_girl_boy: **`:family_woman_girl_boy:`** |
 | :family_woman_girl_girl: **`:family_woman_girl_girl:`** 
-### body
-| :selfie: **`:selfie:`** | :muscle: **`:muscle:`** | :point_left: **`:point_left:`** 
+### person-symbol
+| :speaking_head: **`:speaking_head:`** | :bust_in_silhouette: **`:bust_in_silhouette:`** | :busts_in_silhouette: **`:busts_in_silhouette:`** 
 |:---:|:---:|:---:|
-| :point_right: **`:point_right:`** | :point_up: **`:point_up:`** | :point_up_2: **`:point_up_2:`** |
-| :fu: **`:fu:`** | :middle_finger: **`:middle_finger:`** | :point_down: **`:point_down:`** |
-| :v: **`:v:`** | :crossed_fingers: **`:crossed_fingers:`** | :vulcan_salute: **`:vulcan_salute:`** |
-| :metal: **`:metal:`** | :call_me_hand: **`:call_me_hand:`** | :raised_hand_with_fingers_splayed: **`:raised_hand_with_fingers_splayed:`** |
-| :hand: **`:hand:`** | :raised_hand: **`:raised_hand:`** | :ok_hand: **`:ok_hand:`** |
-| :+1: **`:+1:`** | :thumbsup: **`:thumbsup:`** | :-1: **`:-1:`** |
-| :thumbsdown: **`:thumbsdown:`** | :fist: **`:fist:`** | :fist_raised: **`:fist_raised:`** |
-| :facepunch: **`:facepunch:`** | :fist_oncoming: **`:fist_oncoming:`** | :punch: **`:punch:`** |
-| :fist_left: **`:fist_left:`** | :fist_right: **`:fist_right:`** | :raised_back_of_hand: **`:raised_back_of_hand:`** |
-| :wave: **`:wave:`** | :writing_hand: **`:writing_hand:`** | :clap: **`:clap:`** |
-| :open_hands: **`:open_hands:`** | :raised_hands: **`:raised_hands:`** | :pray: **`:pray:`** |
-| :handshake: **`:handshake:`** | :nail_care: **`:nail_care:`** | :ear: **`:ear:`** |
-| :nose: **`:nose:`** | :footprints: **`:footprints:`** | :eyes: **`:eyes:`** |
-| :eye: **`:eye:`** | :tongue: **`:tongue:`** | :lips: **`:lips:`** 
-### emotion
-| :kiss: **`:kiss:`** | :cupid: **`:cupid:`** | :heart: **`:heart:`** 
-|:---:|:---:|:---:|
-| :heartbeat: **`:heartbeat:`** | :broken_heart: **`:broken_heart:`** | :two_hearts: **`:two_hearts:`** |
-| :sparkling_heart: **`:sparkling_heart:`** | :heartpulse: **`:heartpulse:`** | :blue_heart: **`:blue_heart:`** |
-| :green_heart: **`:green_heart:`** | :yellow_heart: **`:yellow_heart:`** | :purple_heart: **`:purple_heart:`** |
-| :black_heart: **`:black_heart:`** | :gift_heart: **`:gift_heart:`** | :revolving_hearts: **`:revolving_hearts:`** |
-| :heart_decoration: **`:heart_decoration:`** | :heavy_heart_exclamation: **`:heavy_heart_exclamation:`** | :love_letter: **`:love_letter:`** |
-| :zzz: **`:zzz:`** | :anger: **`:anger:`** | :bomb: **`:bomb:`** |
-| :boom: **`:boom:`** | :collision: **`:collision:`** | :sweat_drops: **`:sweat_drops:`** |
-| :dash: **`:dash:`** | :dizzy: **`:dizzy:`** | :speech_balloon: **`:speech_balloon:`** |
-| :right_anger_bubble: **`:right_anger_bubble:`** | :thought_balloon: **`:thought_balloon:`** | :hole: **`:hole:`** 
-### clothing
-| :eyeglasses: **`:eyeglasses:`** | :dark_sunglasses: **`:dark_sunglasses:`** | :necktie: **`:necktie:`** 
-|:---:|:---:|:---:|
-| :shirt: **`:shirt:`** | :tshirt: **`:tshirt:`** | :jeans: **`:jeans:`** |
-| :dress: **`:dress:`** | :kimono: **`:kimono:`** | :bikini: **`:bikini:`** |
-| :womans_clothes: **`:womans_clothes:`** | :purse: **`:purse:`** | :handbag: **`:handbag:`** |
-| :pouch: **`:pouch:`** | :shopping: **`:shopping:`** | :school_satchel: **`:school_satchel:`** |
-| :mans_shoe: **`:mans_shoe:`** | :shoe: **`:shoe:`** | :athletic_shoe: **`:athletic_shoe:`** |
-| :high_heel: **`:high_heel:`** | :sandal: **`:sandal:`** | :boot: **`:boot:`** |
-| :crown: **`:crown:`** | :womans_hat: **`:womans_hat:`** | :tophat: **`:tophat:`** |
-| :mortar_board: **`:mortar_board:`** | :rescue_worker_helmet: **`:rescue_worker_helmet:`** | :prayer_beads: **`:prayer_beads:`** |
-| :lipstick: **`:lipstick:`** | :ring: **`:ring:`** | :gem: **`:gem:`** 
+| :footprints: **`:footprints:`** 
+# Component
 # Animals & Nature
 ### animal-mammal
 | :monkey_face: **`:monkey_face:`** | :monkey: **`:monkey:`** | :gorilla: **`:gorilla:`** 
@@ -292,8 +332,7 @@
 |:---:|:---:|:---:|
 | :flipper: **`:flipper:`** | :fish: **`:fish:`** | :tropical_fish: **`:tropical_fish:`** |
 | :blowfish: **`:blowfish:`** | :shark: **`:shark:`** | :octopus: **`:octopus:`** |
-| :shell: **`:shell:`** | :crab: **`:crab:`** | :shrimp: **`:shrimp:`** |
-| :squid: **`:squid:`** 
+| :shell: **`:shell:`** 
 ### animal-bug
 | :snail: **`:snail:`** | :butterfly: **`:butterfly:`** | :bug: **`:bug:`** 
 |:---:|:---:|:---:|
@@ -343,6 +382,9 @@
 | :spaghetti: **`:spaghetti:`** | :sweet_potato: **`:sweet_potato:`** | :oden: **`:oden:`** |
 | :sushi: **`:sushi:`** | :fried_shrimp: **`:fried_shrimp:`** | :fish_cake: **`:fish_cake:`** |
 | :dango: **`:dango:`** 
+### food-marine
+| :crab: **`:crab:`** | :shrimp: **`:shrimp:`** | :squid: **`:squid:`** 
+|:---:|:---:|:---:
 ### food-sweet
 | :icecream: **`:icecream:`** | :shaved_ice: **`:shaved_ice:`** | :ice_cream: **`:ice_cream:`** 
 |:---:|:---:|:---:|
@@ -389,9 +431,9 @@
 |:---:|:---:|:---:|
 | :night_with_stars: **`:night_with_stars:`** | :cityscape: **`:cityscape:`** | :sunrise_over_mountains: **`:sunrise_over_mountains:`** |
 | :sunrise: **`:sunrise:`** | :city_sunset: **`:city_sunset:`** | :city_sunrise: **`:city_sunrise:`** |
-| :bridge_at_night: **`:bridge_at_night:`** | :hotsprings: **`:hotsprings:`** | :milky_way: **`:milky_way:`** |
-| :carousel_horse: **`:carousel_horse:`** | :ferris_wheel: **`:ferris_wheel:`** | :roller_coaster: **`:roller_coaster:`** |
-| :barber: **`:barber:`** | :circus_tent: **`:circus_tent:`** 
+| :bridge_at_night: **`:bridge_at_night:`** | :hotsprings: **`:hotsprings:`** | :carousel_horse: **`:carousel_horse:`** |
+| :ferris_wheel: **`:ferris_wheel:`** | :roller_coaster: **`:roller_coaster:`** | :barber: **`:barber:`** |
+| :circus_tent: **`:circus_tent:`** 
 ### transport-ground
 | :steam_locomotive: **`:steam_locomotive:`** | :railway_car: **`:railway_car:`** | :bullettrain_side: **`:bullettrain_side:`** 
 |:---:|:---:|:---:|
@@ -403,11 +445,12 @@
 | :police_car: **`:police_car:`** | :oncoming_police_car: **`:oncoming_police_car:`** | :taxi: **`:taxi:`** |
 | :oncoming_taxi: **`:oncoming_taxi:`** | :car: **`:car:`** | :red_car: **`:red_car:`** |
 | :oncoming_automobile: **`:oncoming_automobile:`** | :blue_car: **`:blue_car:`** | :truck: **`:truck:`** |
-| :articulated_lorry: **`:articulated_lorry:`** | :tractor: **`:tractor:`** | :bike: **`:bike:`** |
-| :kick_scooter: **`:kick_scooter:`** | :motor_scooter: **`:motor_scooter:`** | :busstop: **`:busstop:`** |
-| :motorway: **`:motorway:`** | :railway_track: **`:railway_track:`** | :oil_drum: **`:oil_drum:`** |
-| :fuelpump: **`:fuelpump:`** | :rotating_light: **`:rotating_light:`** | :traffic_light: **`:traffic_light:`** |
-| :vertical_traffic_light: **`:vertical_traffic_light:`** | :stop_sign: **`:stop_sign:`** | :construction: **`:construction:`** 
+| :articulated_lorry: **`:articulated_lorry:`** | :tractor: **`:tractor:`** | :racing_car: **`:racing_car:`** |
+| :motorcycle: **`:motorcycle:`** | :motor_scooter: **`:motor_scooter:`** | :bike: **`:bike:`** |
+| :kick_scooter: **`:kick_scooter:`** | :busstop: **`:busstop:`** | :motorway: **`:motorway:`** |
+| :railway_track: **`:railway_track:`** | :oil_drum: **`:oil_drum:`** | :fuelpump: **`:fuelpump:`** |
+| :rotating_light: **`:rotating_light:`** | :traffic_light: **`:traffic_light:`** | :vertical_traffic_light: **`:vertical_traffic_light:`** |
+| :stop_sign: **`:stop_sign:`** | :construction: **`:construction:`** 
 ### transport-water
 | :anchor: **`:anchor:`** | :boat: **`:boat:`** | :sailboat: **`:sailboat:`** 
 |:---:|:---:|:---:|
@@ -443,16 +486,16 @@
 | :crescent_moon: **`:crescent_moon:`** | :new_moon_with_face: **`:new_moon_with_face:`** | :first_quarter_moon_with_face: **`:first_quarter_moon_with_face:`** |
 | :last_quarter_moon_with_face: **`:last_quarter_moon_with_face:`** | :thermometer: **`:thermometer:`** | :sunny: **`:sunny:`** |
 | :full_moon_with_face: **`:full_moon_with_face:`** | :sun_with_face: **`:sun_with_face:`** | :star: **`:star:`** |
-| :star2: **`:star2:`** | :stars: **`:stars:`** | :cloud: **`:cloud:`** |
-| :partly_sunny: **`:partly_sunny:`** | :cloud_with_lightning_and_rain: **`:cloud_with_lightning_and_rain:`** | :sun_behind_small_cloud: **`:sun_behind_small_cloud:`** |
-| :sun_behind_large_cloud: **`:sun_behind_large_cloud:`** | :sun_behind_rain_cloud: **`:sun_behind_rain_cloud:`** | :cloud_with_rain: **`:cloud_with_rain:`** |
-| :cloud_with_snow: **`:cloud_with_snow:`** | :cloud_with_lightning: **`:cloud_with_lightning:`** | :tornado: **`:tornado:`** |
-| :fog: **`:fog:`** | :wind_face: **`:wind_face:`** | :cyclone: **`:cyclone:`** |
-| :rainbow: **`:rainbow:`** | :closed_umbrella: **`:closed_umbrella:`** | :umbrella: **`:umbrella:`** |
-| :open_umbrella: **`:open_umbrella:`** | :parasol_on_ground: **`:parasol_on_ground:`** | :zap: **`:zap:`** |
-| :snowflake: **`:snowflake:`** | :snowman: **`:snowman:`** | :snowman_with_snow: **`:snowman_with_snow:`** |
-| :comet: **`:comet:`** | :fire: **`:fire:`** | :droplet: **`:droplet:`** |
-| :ocean: **`:ocean:`** 
+| :star2: **`:star2:`** | :stars: **`:stars:`** | :milky_way: **`:milky_way:`** |
+| :cloud: **`:cloud:`** | :partly_sunny: **`:partly_sunny:`** | :cloud_with_lightning_and_rain: **`:cloud_with_lightning_and_rain:`** |
+| :sun_behind_small_cloud: **`:sun_behind_small_cloud:`** | :sun_behind_large_cloud: **`:sun_behind_large_cloud:`** | :sun_behind_rain_cloud: **`:sun_behind_rain_cloud:`** |
+| :cloud_with_rain: **`:cloud_with_rain:`** | :cloud_with_snow: **`:cloud_with_snow:`** | :cloud_with_lightning: **`:cloud_with_lightning:`** |
+| :tornado: **`:tornado:`** | :fog: **`:fog:`** | :wind_face: **`:wind_face:`** |
+| :cyclone: **`:cyclone:`** | :rainbow: **`:rainbow:`** | :closed_umbrella: **`:closed_umbrella:`** |
+| :umbrella: **`:umbrella:`** | :open_umbrella: **`:open_umbrella:`** | :parasol_on_ground: **`:parasol_on_ground:`** |
+| :zap: **`:zap:`** | :snowflake: **`:snowflake:`** | :snowman: **`:snowman:`** |
+| :snowman_with_snow: **`:snowman_with_snow:`** | :comet: **`:comet:`** | :fire: **`:fire:`** |
+| :droplet: **`:droplet:`** | :ocean: **`:ocean:`** 
 # Activities
 ### event
 | :jack_o_lantern: **`:jack_o_lantern:`** | :christmas_tree: **`:christmas_tree:`** | :fireworks: **`:fireworks:`** 
@@ -487,6 +530,18 @@
 | :performing_arts: **`:performing_arts:`** | :framed_picture: **`:framed_picture:`** | :art: **`:art:`** 
 |:---:|:---:|:---:
 # Objects
+### clothing
+| :eyeglasses: **`:eyeglasses:`** | :dark_sunglasses: **`:dark_sunglasses:`** | :necktie: **`:necktie:`** 
+|:---:|:---:|:---:|
+| :shirt: **`:shirt:`** | :tshirt: **`:tshirt:`** | :jeans: **`:jeans:`** |
+| :dress: **`:dress:`** | :kimono: **`:kimono:`** | :bikini: **`:bikini:`** |
+| :womans_clothes: **`:womans_clothes:`** | :purse: **`:purse:`** | :handbag: **`:handbag:`** |
+| :pouch: **`:pouch:`** | :shopping: **`:shopping:`** | :school_satchel: **`:school_satchel:`** |
+| :mans_shoe: **`:mans_shoe:`** | :shoe: **`:shoe:`** | :athletic_shoe: **`:athletic_shoe:`** |
+| :high_heel: **`:high_heel:`** | :sandal: **`:sandal:`** | :boot: **`:boot:`** |
+| :crown: **`:crown:`** | :womans_hat: **`:womans_hat:`** | :tophat: **`:tophat:`** |
+| :mortar_board: **`:mortar_board:`** | :rescue_worker_helmet: **`:rescue_worker_helmet:`** | :prayer_beads: **`:prayer_beads:`** |
+| :lipstick: **`:lipstick:`** | :ring: **`:ring:`** | :gem: **`:gem:`** 
 ### sound
 | :mute: **`:mute:`** | :speaker: **`:speaker:`** | :sound: **`:sound:`** 
 |:---:|:---:|:---:|
@@ -651,31 +706,30 @@
 | :seven: **`:seven:`** | :eight: **`:eight:`** | :nine: **`:nine:`** |
 | :keycap_ten: **`:keycap_ten:`** 
 ### alphanum
-| :100: **`:100:`** | :capital_abcd: **`:capital_abcd:`** | :abcd: **`:abcd:`** 
+| :capital_abcd: **`:capital_abcd:`** | :abcd: **`:abcd:`** | :1234: **`:1234:`** 
 |:---:|:---:|:---:|
-| :1234: **`:1234:`** | :symbols: **`:symbols:`** | :abc: **`:abc:`** |
-| :a: **`:a:`** | :ab: **`:ab:`** | :b: **`:b:`** |
-| :cl: **`:cl:`** | :cool: **`:cool:`** | :free: **`:free:`** |
-| :information_source: **`:information_source:`** | :id: **`:id:`** | :m: **`:m:`** |
-| :new: **`:new:`** | :ng: **`:ng:`** | :o2: **`:o2:`** |
-| :ok: **`:ok:`** | :parking: **`:parking:`** | :sos: **`:sos:`** |
-| :up: **`:up:`** | :vs: **`:vs:`** | :koko: **`:koko:`** |
-| :sa: **`:sa:`** | :u6708: **`:u6708:`** | :u6709: **`:u6709:`** |
-| :u6307: **`:u6307:`** | :ideograph_advantage: **`:ideograph_advantage:`** | :u5272: **`:u5272:`** |
-| :u7121: **`:u7121:`** | :u7981: **`:u7981:`** | :accept: **`:accept:`** |
-| :u7533: **`:u7533:`** | :u5408: **`:u5408:`** | :u7a7a: **`:u7a7a:`** |
-| :congratulations: **`:congratulations:`** | :secret: **`:secret:`** | :u55b6: **`:u55b6:`** |
-| :u6e80: **`:u6e80:`** 
+| :symbols: **`:symbols:`** | :abc: **`:abc:`** | :a: **`:a:`** |
+| :ab: **`:ab:`** | :b: **`:b:`** | :cl: **`:cl:`** |
+| :cool: **`:cool:`** | :free: **`:free:`** | :information_source: **`:information_source:`** |
+| :id: **`:id:`** | :m: **`:m:`** | :new: **`:new:`** |
+| :ng: **`:ng:`** | :o2: **`:o2:`** | :ok: **`:ok:`** |
+| :parking: **`:parking:`** | :sos: **`:sos:`** | :up: **`:up:`** |
+| :vs: **`:vs:`** | :koko: **`:koko:`** | :sa: **`:sa:`** |
+| :u6708: **`:u6708:`** | :u6709: **`:u6709:`** | :u6307: **`:u6307:`** |
+| :ideograph_advantage: **`:ideograph_advantage:`** | :u5272: **`:u5272:`** | :u7121: **`:u7121:`** |
+| :u7981: **`:u7981:`** | :accept: **`:accept:`** | :u7533: **`:u7533:`** |
+| :u5408: **`:u5408:`** | :u7a7a: **`:u7a7a:`** | :congratulations: **`:congratulations:`** |
+| :secret: **`:secret:`** | :u55b6: **`:u55b6:`** | :u6e80: **`:u6e80:`** 
 ### geometric
-| :black_small_square: **`:black_small_square:`** | :white_small_square: **`:white_small_square:`** | :white_medium_square: **`:white_medium_square:`** 
+| :red_circle: **`:red_circle:`** | :large_blue_circle: **`:large_blue_circle:`** | :black_circle: **`:black_circle:`** 
 |:---:|:---:|:---:|
-| :black_medium_square: **`:black_medium_square:`** | :white_medium_small_square: **`:white_medium_small_square:`** | :black_medium_small_square: **`:black_medium_small_square:`** |
-| :black_large_square: **`:black_large_square:`** | :white_large_square: **`:white_large_square:`** | :large_orange_diamond: **`:large_orange_diamond:`** |
-| :large_blue_diamond: **`:large_blue_diamond:`** | :small_orange_diamond: **`:small_orange_diamond:`** | :small_blue_diamond: **`:small_blue_diamond:`** |
-| :small_red_triangle: **`:small_red_triangle:`** | :small_red_triangle_down: **`:small_red_triangle_down:`** | :diamond_shape_with_a_dot_inside: **`:diamond_shape_with_a_dot_inside:`** |
-| :radio_button: **`:radio_button:`** | :black_square_button: **`:black_square_button:`** | :white_square_button: **`:white_square_button:`** |
-| :white_circle: **`:white_circle:`** | :black_circle: **`:black_circle:`** | :red_circle: **`:red_circle:`** |
-| :large_blue_circle: **`:large_blue_circle:`** 
+| :white_circle: **`:white_circle:`** | :black_large_square: **`:black_large_square:`** | :white_large_square: **`:white_large_square:`** |
+| :black_medium_square: **`:black_medium_square:`** | :white_medium_square: **`:white_medium_square:`** | :black_medium_small_square: **`:black_medium_small_square:`** |
+| :white_medium_small_square: **`:white_medium_small_square:`** | :black_small_square: **`:black_small_square:`** | :white_small_square: **`:white_small_square:`** |
+| :large_orange_diamond: **`:large_orange_diamond:`** | :large_blue_diamond: **`:large_blue_diamond:`** | :small_orange_diamond: **`:small_orange_diamond:`** |
+| :small_blue_diamond: **`:small_blue_diamond:`** | :small_red_triangle: **`:small_red_triangle:`** | :small_red_triangle_down: **`:small_red_triangle_down:`** |
+| :diamond_shape_with_a_dot_inside: **`:diamond_shape_with_a_dot_inside:`** | :radio_button: **`:radio_button:`** | :white_square_button: **`:white_square_button:`** |
+| :black_square_button: **`:black_square_button:`** 
 # Flags
 ### flag
 | :checkered_flag: **`:checkered_flag:`** | :triangular_flag_on_post: **`:triangular_flag_on_post:`** | :crossed_flags: **`:crossed_flags:`** 
