@@ -2,8 +2,8 @@
 * A list of **all supported github** emojis updated weekly.
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
-## <p align="center"><b> :one: :five: :zero: :eight: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 4/21/2019 8:35:17 PM</p>
+## <p align="center"><b> :one: :five: :one: :zero: Emojis available</b></p>
+### <p align="center">Last updated (UTC) 4/28/2019 8:36:06 PM</p>
 * [Smileys & Emotion](#smileys--emotion)
 	 * [face-smiling](#face-smiling)
 	 * [face-affection](#face-affection)
@@ -231,9 +231,10 @@
 |:---:|:---:|:---:|
 | :pouting_woman: **`:pouting_woman:`** | :ng_woman: **`:ng_woman:`** | :no_good: **`:no_good:`** |
 | :no_good_woman: **`:no_good_woman:`** | :ok_woman: **`:ok_woman:`** | :information_desk_person: **`:information_desk_person:`** |
-| :tipping_hand_woman: **`:tipping_hand_woman:`** | :raising_hand: **`:raising_hand:`** | :raising_hand_woman: **`:raising_hand_woman:`** |
-| :bow: **`:bow:`** | :bowing_man: **`:bowing_man:`** | :man_facepalming: **`:man_facepalming:`** |
-| :woman_facepalming: **`:woman_facepalming:`** | :man_shrugging: **`:man_shrugging:`** | :woman_shrugging: **`:woman_shrugging:`** 
+| :sassy_woman: **`:sassy_woman:`** | :tipping_hand_woman: **`:tipping_hand_woman:`** | :raising_hand: **`:raising_hand:`** |
+| :raising_hand_woman: **`:raising_hand_woman:`** | :bow: **`:bow:`** | :bowing_man: **`:bowing_man:`** |
+| :man_facepalming: **`:man_facepalming:`** | :woman_facepalming: **`:woman_facepalming:`** | :man_shrugging: **`:man_shrugging:`** |
+| :woman_shrugging: **`:woman_shrugging:`** 
 ### person-role
 | :man_health_worker: **`:man_health_worker:`** | :woman_health_worker: **`:woman_health_worker:`** | :man_student: **`:man_student:`** 
 |:---:|:---:|:---:|
@@ -836,7 +837,7 @@
 | :ok_man: **`:ok_man:`** | :policewoman: **`:policewoman:`** | :pouting_man: **`:pouting_man:`** |
 | :rage1: **`:rage1:`** | :rage2: **`:rage2:`** | :rage3: **`:rage3:`** |
 | :rage4: **`:rage4:`** | :raising_hand_man: **`:raising_hand_man:`** | :rowing_woman: **`:rowing_woman:`** |
-| :running_woman: **`:running_woman:`** | :shipit: **`:shipit:`** | :squirrel: **`:squirrel:`** |
-| :surfing_woman: **`:surfing_woman:`** | :suspect: **`:suspect:`** | :swimming_woman: **`:swimming_woman:`** |
-| :tipping_hand_man: **`:tipping_hand_man:`** | :trollface: **`:trollface:`** | :walking_woman: **`:walking_woman:`** |
-| :weight_lifting_woman: **`:weight_lifting_woman:`** | :woman_with_turban: **`:woman_with_turban:`** 
+| :running_woman: **`:running_woman:`** | :sassy_man: **`:sassy_man:`** | :tipping_hand_man: **`:tipping_hand_man:`** |
+| :shipit: **`:shipit:`** | :squirrel: **`:squirrel:`** | :surfing_woman: **`:surfing_woman:`** |
+| :suspect: **`:suspect:`** | :swimming_woman: **`:swimming_woman:`** | :trollface: **`:trollface:`** |
+| :walking_woman: **`:walking_woman:`** | :weight_lifting_woman: **`:weight_lifting_woman:`** | :woman_with_turban: **`:woman_with_turban:`** 
