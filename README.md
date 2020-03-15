@@ -3,7 +3,7 @@
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :five: :one: :zero: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 3/8/2020 9:01:45 PM</p>
+### <p align="center">Last updated (UTC) 3/15/2020 9:02:36 PM</p>
 * [Smileys & Emotion](#smileys--emotion)
 	 * [face-smiling](#face-smiling)
 	 * [face-affection](#face-affection)
@@ -100,6 +100,9 @@
 	 * [religion](#religion)
 	 * [zodiac](#zodiac)
 	 * [av-symbol](#av-symbol)
+	 * [math](#math)
+	 * [punctuation](#punctuation)
+	 * [currency](#currency)
 	 * [other-symbol](#other-symbol)
 	 * [keycap](#keycap)
 	 * [alphanum](#alphanum)
@@ -563,8 +566,7 @@
 | :moneybag: **`:moneybag:`** | :yen: **`:yen:`** | :dollar: **`:dollar:`** 
 |:---:|:---:|:---:|
 | :euro: **`:euro:`** | :pound: **`:pound:`** | :money_with_wings: **`:money_with_wings:`** |
-| :credit_card: **`:credit_card:`** | :chart: **`:chart:`** | :currency_exchange: **`:currency_exchange:`** |
-| :heavy_dollar_sign: **`:heavy_dollar_sign:`** 
+| :credit_card: **`:credit_card:`** | :chart: **`:chart:`** 
 ### mail
 | :email: **`:email:`** | :envelope: **`:envelope:`** | :e-mail: **`:e-mail:`** 
 |:---:|:---:|:---:|
@@ -662,18 +664,26 @@
 | :stop_button: **`:stop_button:`** | :record_button: **`:record_button:`** | :cinema: **`:cinema:`** |
 | :low_brightness: **`:low_brightness:`** | :high_brightness: **`:high_brightness:`** | :signal_strength: **`:signal_strength:`** |
 | :vibration_mode: **`:vibration_mode:`** | :mobile_phone_off: **`:mobile_phone_off:`** 
+### math
+| :heavy_multiplication_x: **`:heavy_multiplication_x:`** | :heavy_plus_sign: **`:heavy_plus_sign:`** | :heavy_minus_sign: **`:heavy_minus_sign:`** 
+|:---:|:---:|:---:|
+| :heavy_division_sign: **`:heavy_division_sign:`** 
+### punctuation
+| :bangbang: **`:bangbang:`** | :interrobang: **`:interrobang:`** | :question: **`:question:`** 
+|:---:|:---:|:---:|
+| :grey_question: **`:grey_question:`** | :grey_exclamation: **`:grey_exclamation:`** | :exclamation: **`:exclamation:`** |
+| :heavy_exclamation_mark: **`:heavy_exclamation_mark:`** | :wavy_dash: **`:wavy_dash:`** 
+### currency
+| :currency_exchange: **`:currency_exchange:`** | :heavy_dollar_sign: **`:heavy_dollar_sign:`** 
+|:---:|:---:
 ### other-symbol
 | :recycle: **`:recycle:`** | :fleur_de_lis: **`:fleur_de_lis:`** | :trident: **`:trident:`** 
 |:---:|:---:|:---:|
 | :name_badge: **`:name_badge:`** | :beginner: **`:beginner:`** | :o: **`:o:`** |
 | :white_check_mark: **`:white_check_mark:`** | :ballot_box_with_check: **`:ballot_box_with_check:`** | :heavy_check_mark: **`:heavy_check_mark:`** |
-| :heavy_multiplication_x: **`:heavy_multiplication_x:`** | :x: **`:x:`** | :negative_squared_cross_mark: **`:negative_squared_cross_mark:`** |
-| :heavy_plus_sign: **`:heavy_plus_sign:`** | :heavy_minus_sign: **`:heavy_minus_sign:`** | :heavy_division_sign: **`:heavy_division_sign:`** |
-| :curly_loop: **`:curly_loop:`** | :loop: **`:loop:`** | :part_alternation_mark: **`:part_alternation_mark:`** |
-| :eight_spoked_asterisk: **`:eight_spoked_asterisk:`** | :eight_pointed_black_star: **`:eight_pointed_black_star:`** | :sparkle: **`:sparkle:`** |
-| :bangbang: **`:bangbang:`** | :interrobang: **`:interrobang:`** | :question: **`:question:`** |
-| :grey_question: **`:grey_question:`** | :grey_exclamation: **`:grey_exclamation:`** | :exclamation: **`:exclamation:`** |
-| :heavy_exclamation_mark: **`:heavy_exclamation_mark:`** | :wavy_dash: **`:wavy_dash:`** | :copyright: **`:copyright:`** |
+| :x: **`:x:`** | :negative_squared_cross_mark: **`:negative_squared_cross_mark:`** | :curly_loop: **`:curly_loop:`** |
+| :loop: **`:loop:`** | :part_alternation_mark: **`:part_alternation_mark:`** | :eight_spoked_asterisk: **`:eight_spoked_asterisk:`** |
+| :eight_pointed_black_star: **`:eight_pointed_black_star:`** | :sparkle: **`:sparkle:`** | :copyright: **`:copyright:`** |
 | :registered: **`:registered:`** | :tm: **`:tm:`** 
 ### keycap
 | :hash: **`:hash:`** | :asterisk: **`:asterisk:`** | :zero: **`:zero:`** 
