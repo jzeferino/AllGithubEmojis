@@ -17,18 +17,13 @@ namespace AllGithubEmojis.Core
 
         private GithubEmojiParser() { }
 
-        public static Task<Emojis> Parse(string token) => new GithubEmojiParser().InternalParse(token);
+        public static Task<Emojis> Parse() => new GithubEmojiParser().InternalParse();
 
-        private async Task<Emojis> InternalParse(string token)
+        private async Task<Emojis> InternalParse()
         {
-            if (string.IsNullOrEmpty(token))
-            {
-                throw new ArgumentException(nameof(token));
-            }
-
             var emojis = new Emojis();
 
-            var tuple = await TaskEx.WhenAll(ParseGithubEmojis(token), Requests.ReadEmojiTestFileAsync());
+            var tuple = await TaskEx.WhenAll(ParseGithubEmojis(), Requests.ReadEmojiTestFileAsync());
             var groupedEmojiText = tuple.Item2;
             var map = tuple.Item1;
 
@@ -92,7 +87,7 @@ namespace AllGithubEmojis.Core
                 .AddAndPick(new EmojiSubGroup { Name = line.Replace(SubGroupDelimiter, string.Empty) });
         }
 
-        private void CreateEmoji(EmoijMap map, string line, Emojis emojis)
+        private void CreateEmoji(EmojiMap map, string line, Emojis emojis)
         {
             var unicode = line.Split(';').First().Trim().Replace(' ', '-');
 
@@ -145,11 +140,11 @@ namespace AllGithubEmojis.Core
                 .Add(emoji);
         }
 
-        private async Task<EmoijMap> ParseGithubEmojis(string token)
+        private async Task<EmojiMap> ParseGithubEmojis()
         {
-            var githubEmojis = await Requests.GetGitHubEmojisAsync(token);
+            var githubEmojis = await Requests.GetGitHubEmojisAsync();
 
-            var map = new EmoijMap();
+            var map = new EmojiMap();
 
             foreach (var githubEmoji in githubEmojis)
             {

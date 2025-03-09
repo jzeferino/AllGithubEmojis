@@ -1,87 +1,27 @@
-#addin Cake.Git
-#addin Cake.FileHelpers
-#addin "Cake.Json"
+#addin "nuget:https://api.nuget.org/v3/index.json?package=Cake.FileHelpers&version=7.0.0"
+#addin "nuget:https://api.nuget.org/v3/index.json?package=Cake.Json&version=7.0.1"
 
-#r src/AllGithubEmojis.Core/bin/Release/AllGithubEmojis.Core.dll
-#r src/AllGithubEmojis.Generator/bin/Release/AllGithubEmojis.Generator.dll
+#r src/AllGithubEmojis.Core/bin/Release/net8.0/AllGithubEmojis.Core.dll
+#r src/AllGithubEmojis.Generator/bin/Release/net8.0/AllGithubEmojis.Generator.dll
 
 using AllGithubEmojis.Core;
 using AllGithubEmojis.Generator.GithubReadme;
 
-// Environment variables.
-var gitpassword = EnvironmentVariable("githubPassword") ?? Argument("password", string.Empty);
-var githubAPIToken = EnvironmentVariable("githubAPIToken") ?? Argument("token", string.Empty);
-
-// Declarations.
-var clonedRepo = Directory("./repo");
-var username = "jzeferino";
-var userEmail = "jorgevalentzeferino@gmail.com";
 var numberOfColumns = 3;
-Func<string> readmePath = () => System.IO.Path.Combine(clonedRepo, "README.md");
-Func<string> jsonPath = () => System.IO.Path.Combine(clonedRepo, "emojis.json");
-var repoUrl = "https://github.com/jzeferino/AllGithubEmojis.git";
-var master = "master";
-var ghPages = "gh-pages";
-var isLocalBuild = BuildSystem.IsLocalBuild;
+var readmePath = "./README.md";
+var jsonPath = "./emojis.json";
 
-// Do common logic.
-Action<string, Action, Func<string>, string> CloneExecuteAndPush = (branch, execute, filePath, commitMessage) =>
-{
-    if(DirectoryExists(clonedRepo))
-    {
-        DeleteDirectory(clonedRepo, new DeleteDirectorySettings 
-        {
-            Recursive = true
-        });
-    }  
-
-    Information($"Cloning {branch}...");
-    GitClone(repoUrl, clonedRepo, new GitCloneSettings{ BranchName = branch });
-    
-    execute();
-
-    if(!isLocalBuild)
-    {
-        if(GitHasUncommitedChanges(clonedRepo))
-        {
-            Information("Git add, commit and push...");
-            GitAdd(clonedRepo,  new FilePath[] { filePath() });
-            GitCommit(clonedRepo, username, userEmail, commitMessage);
-            GitPush(clonedRepo, username, gitpassword, branch);
-        }
-        else
-        {
-            Information("Nothing to commit.");
-        }
-        
-    }
-};
-
-// Tasks.
 Task("Default")
     .Does(() =>
 {
     Information("Parsing emojis...");
-    var emojis = GithubEmojiParser.Parse(githubAPIToken).Result;
+    var emojis = GithubEmojiParser.Parse().Result;
 
-    CloneExecuteAndPush(
-        master,
-        () => {
-            Information("Generating README.md...");
-            FileWriteText(readmePath(), GithubReadmeGenerator.Generate(emojis, numberOfColumns));
-        },
-        readmePath,
-        "Update README.md");
-    
-    CloneExecuteAndPush(
-        ghPages,
-        () => {
-            Information("Generating emojis.json...");
-            FileWriteText(jsonPath(), SerializeJson(emojis));
-        },
-        jsonPath,
-        "Update emojis.json");
+    Information("Generating README.md...");
+    FileWriteText(readmePath, GithubReadmeGenerator.Generate(emojis, numberOfColumns));
+
+    Information("Generating emojis.json...");
+    FileWriteText(jsonPath, SerializeJson(emojis));
 });
 
-// Execution.
 RunTarget("Default");

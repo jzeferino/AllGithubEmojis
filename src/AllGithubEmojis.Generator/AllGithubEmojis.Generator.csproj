@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>AllGithubEmojis.Generator</RootNamespace>
     <AssemblyName>AllGithubEmojis.Generator</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,20 +27,14 @@
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="GithubReame\GithubReadmeGenerator.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GithubReame\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AllGithubEmojis.Core\AllGithubEmojis.Core.csproj">
       <Project>{F31FFACC-4C7C-4EA1-AE78-03F5E841804E}</Project>
       <Name>AllGithubEmojis.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+    <PropertyGroup>
+    <AssemblyTitle>AllGithubEmojis.Generator</AssemblyTitle>
+    <AssemblyProduct>AllGithubEmojis</AssemblyProduct>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+</PropertyGroup>
 </Project>

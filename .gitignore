@@ -185,6 +185,9 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
+# VS code
+*.vscode
+
 *.userprefs
 
 .DS_Store

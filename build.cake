@@ -1,49 +1,47 @@
 // Declarations.
 var configuration = "Release";
-var solutionFile = new FilePath("src/AllGithubEmojis.sln");
-
-// Environment variables.
-var gitpassword = Argument("password", string.Empty);
-var githubAPIToken = Argument("token", string.Empty);
+var solutionFile = "src/AllGithubEmojis.sln";
 
 // Tasks.
 Task("Clean")
     .Does(() =>
-{	
-    MSBuild(solutionFile, settings => settings
-        .SetConfiguration(configuration)
-        .WithTarget("Clean")
-        .SetVerbosity(Verbosity.Minimal));
+{
+    var settings = new DotNetCleanSettings
+    {
+        Configuration = configuration,
+        Verbosity = DotNetVerbosity.Normal,
+    };
+    DotNetClean(solutionFile, settings);
 });
 
 Task("Restore")
-    .Does(() => 
+    .Does(() =>
 {
-    NuGetRestore(solutionFile);
+    DotNetRestore(solutionFile);
 });
 
 Task("Build")
-	.IsDependentOn("Clean")
-	.IsDependentOn("Restore")
-	.Does(() =>  
-{	
-    MSBuild(solutionFile, settings => settings
-        .SetConfiguration(configuration)
-        .WithTarget("Build")
-        .SetVerbosity(Verbosity.Minimal));
+    .IsDependentOn("Clean")
+    .IsDependentOn("Restore")
+    .Does(() =>
+{
+    var settings = new DotNetBuildSettings
+    {
+        Configuration = configuration,
+        Verbosity = DotNetVerbosity.Minimal
+    };
+    DotNetBuild(solutionFile, settings);
 });
 
 Task("Default")
-	.IsDependentOn("Build")
+    .IsDependentOn("Build")
     .Does(() =>
 {
-    CakeExecuteScript("./run.cake", new CakeSettings { 
+    CakeExecuteScript("./run.cake", new CakeSettings
+    {
         Arguments = new Dictionary<string, string>
         {
-            {"target", "Default" },
             {"--verbosity", "Diagnostic" },
-            {"password", gitpassword },
-            {"token", githubAPIToken }
         }
     });
 });

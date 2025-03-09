@@ -1,0 +1,53 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches-ignore:
+      - master
+      - gh-pages
+  schedule:
+    - cron: "0 0 1 * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout and set up environment
+        uses: actions/checkout@v4
+
+      - name: Set up .NET SDK, install Cake Tool, and run Cake Build
+        run: |
+          dotnet new tool-manifest
+          dotnet tool install Cake.Tool --version 5.0.0
+          dotnet cake build.cake
+
+      - name: Clone, commit, and push to multiple branches
+        run: |
+          git config --global user.name "jzeferino"
+          git config --global user.email "jorgevalentzeferino@gmail.com"
+
+          clone_and_push() {
+            branch=$1
+            file=$2
+            git clone --branch $branch https://github.com/jzeferino/AllGithubEmojis.git repo-$branch
+            cd repo-$branch
+
+            if cmp -s "../$file" "$file"; then
+              echo "$file is unchanged, skipping commit and push."
+            else
+              cp "../$file" ./
+
+              git add "$file"
+              git commit -m "Update $file"
+              git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jzeferino/AllGithubEmojis.git
+              git push origin $branch
+            fi
+
+            cd ..
+          }
+
+          clone_and_push "master" "README.md"
+          clone_and_push "gh-pages" "emojis.json"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

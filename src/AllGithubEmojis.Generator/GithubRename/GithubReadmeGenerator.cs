@@ -9,17 +9,17 @@ namespace AllGithubEmojis.Generator.GithubReadme
     public class GithubReadmeGenerator
     {
         private readonly StringBuilder _builder;
-        private readonly int _colums;
+        private readonly int _columns;
         private Emojis _emojis;
 
-        private GithubReadmeGenerator(Emojis emojis, int colums)
+        private GithubReadmeGenerator(Emojis emojis, int columns)
         {
             _builder = new StringBuilder();
-            _colums = colums;
+            _columns = columns;
             _emojis = emojis;
         }
 
-        public static string Generate(Emojis emojis, int colums) => new GithubReadmeGenerator(emojis, colums).Generate();
+        public static string Generate(Emojis emojis, int columns) => new GithubReadmeGenerator(emojis, columns).Generate();
 
         private string Generate()
         {
@@ -88,20 +88,20 @@ namespace AllGithubEmojis.Generator.GithubReadme
 
         private void AddTAbleContent(List<Emoji> emojis)
         {
-            var colums = Math.Min(emojis.Count, _colums);
+            var columns = Math.Min(emojis.Count, _columns);
             for (int i = 0; i < emojis.Count; i++)
             {
-                if (i % colums == 0 && i > 0)
+                if (i % columns == 0 && i > 0)
                 {
                     _builder.AppendLine("|");
                 }
                 var emoji = emojis.ElementAt(i);
                 _builder.AppendFormat("| :{0}: **`:{1}:`** ", emoji.Code, emoji.Code);
 
-                if (i == (colums - 1))
+                if (i == (columns - 1))
                 {
                     _builder.AppendLine();
-                    _builder.Insert(_builder.Length, "|:---:", colums);
+                    _builder.Insert(_builder.Length, "|:---:", columns);
                 }
             }
             _builder.AppendLine();
