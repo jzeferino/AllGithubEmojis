@@ -21,12 +21,21 @@ $(document).ready(function (e) {
 
         Array.prototype.forEach.call(subGroup.Emojis, function (emoji) {
           var emojiElement = document.createElement('div')
-
+        
           emojiElement.className = 'emoji col l2 m2 s6'
-          emojiElement.innerHTML = "<span class='flow-text' title='" + emoji.Name.toLocaleUpperCase() + "'>" + emoji.Name + "</span><div><img alt='" + emoji.Name + "' title='Click to copy to clipboard' src='" + emoji.Url + "' /><p>:" + emoji.Code + ':</p></div>'
-
+        
+          emojiElement.setAttribute('data-search', 
+            (emoji.Name + ' ' + group.Name + ' ' + subGroup.Name).toLowerCase()
+          )
+        
+          emojiElement.innerHTML =
+            "<span class='flow-text' title='" + emoji.Name.toLocaleUpperCase() + "'>" + 
+            emoji.Name + 
+            "</span><div><img alt='" + emoji.Name + "' title='Click to copy to clipboard' src='" + emoji.Url + "' />" + 
+            "<p>:" + emoji.Code + ":</p></div>"
+        
           availableTags.push(emoji.Name)
-
+        
           subGroupElement.append(emojiElement)
         })
 
@@ -74,21 +83,22 @@ $(document).ready(function (e) {
     var idTimer
 
     $('#search-field').on('input', function () {
-      var search = $(this).val()
-
+      var search = $(this).val().trim().toLowerCase()
+    
       clearTimeout(idTimer)
-
       idTimer = setTimeout(function () {
         $('.sub-group, .group').removeClass('hidden')
         $('#main').find('.no-results').remove()
-
+    
         if (search !== '') {
           search = search.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-          search = search.toLocaleLowerCase()
-
-          $('div.emoji span:not(' + search + ')').closest('div.emoji').addClass('hidden')
-          $('div.emoji span:contains(' + search + ')').closest('div.emoji').removeClass('hidden')
-
+    
+          $('.emoji').addClass('hidden')
+    
+          $('.emoji').filter(function () {
+            return $(this).attr('data-search').includes(search)
+          }).removeClass('hidden')
+    
           hideEmptySection('.sub-group')
           hideEmptySection('.group', function (arraySections) {
             if (arraySections.toArray().every(function (e) { return e })) {
