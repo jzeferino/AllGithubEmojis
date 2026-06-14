@@ -1,9 +1,9 @@
 # [AllGithubEmojis](https://jzeferino.github.io/AllGithubEmojis/)
-* A list of **all supported github** emojis updated weekly.
+* An up to date list of **all supported github** emojis.
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
 ## <p align="center"><b> :one: :nine: :three: :six: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 06/14/2026 01:44:04</p>
+### <p align="center">Last updated (UTC) 06/14/2026 01:47:33</p>
 * [Smileys & Emotion](#smileys--emotion)
 	 * [face-smiling](#face-smiling)
 	 * [face-affection](#face-affection)
