@@ -2,8 +2,8 @@
 * A list of **all supported github** emojis updated weekly.
 * **Automatically generated** from github emoji API.
 * Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).
-## <p align="center"><b> :one: :nine: :three: :five: Emojis available</b></p>
-### <p align="center">Last updated (UTC) 03/09/2025 16:47:05</p>
+## <p align="center"><b> :one: :nine: :three: :six: Emojis available</b></p>
+### <p align="center">Last updated (UTC) 06/14/2026 01:39:21</p>
 * [Smileys & Emotion](#smileys--emotion)
 	 * [face-smiling](#face-smiling)
 	 * [face-affection](#face-affection)
@@ -602,9 +602,9 @@
 | :studio_microphone: **`:studio_microphone:`** | :level_slider: **`:level_slider:`** | :control_knobs: **`:control_knobs:`** |
 | :microphone: **`:microphone:`** | :headphones: **`:headphones:`** | :radio: **`:radio:`** 
 ### musical-instrument
-| :saxophone: **`:saxophone:`** | :accordion: **`:accordion:`** | :guitar: **`:guitar:`** 
+| :saxophone: **`:saxophone:`** | :trumpet: **`:trumpet:`** | :accordion: **`:accordion:`** 
 |:---:|:---:|:---:|
-| :musical_keyboard: **`:musical_keyboard:`** | :trumpet: **`:trumpet:`** | :violin: **`:violin:`** |
+| :guitar: **`:guitar:`** | :musical_keyboard: **`:musical_keyboard:`** | :violin: **`:violin:`** |
 | :banjo: **`:banjo:`** | :drum: **`:drum:`** | :long_drum: **`:long_drum:`** |
 | :maracas: **`:maracas:`** | :flute: **`:flute:`** 
 ### phone
@@ -636,7 +636,7 @@
 | :page_facing_up: **`:page_facing_up:`** | :newspaper: **`:newspaper:`** | :newspaper_roll: **`:newspaper_roll:`** |
 | :bookmark_tabs: **`:bookmark_tabs:`** | :bookmark: **`:bookmark:`** | :label: **`:label:`** 
 ### money
-| :moneybag: **`:moneybag:`** | :coin: **`:coin:`** | :yen: **`:yen:`** 
+| :coin: **`:coin:`** | :moneybag: **`:moneybag:`** | :yen: **`:yen:`** 
 |:---:|:---:|:---:|
 | :dollar: **`:dollar:`** | :euro: **`:euro:`** | :pound: **`:pound:`** |
 | :money_with_wings: **`:money_with_wings:`** | :credit_card: **`:credit_card:`** | :receipt: **`:receipt:`** |
@@ -922,78 +922,78 @@
 | :blonde_woman: **`:blonde_woman:`** | :bowing_man: **`:bowing_man:`** | :bowing_woman: **`:bowing_woman:`** |
 | :bowtie: **`:bowtie:`** | :bride_with_veil: **`:bride_with_veil:`** | :woman_with_veil: **`:woman_with_veil:`** |
 | :climbing_man: **`:climbing_man:`** | :climbing_woman: **`:climbing_woman:`** | :construction_worker_man: **`:construction_worker_man:`** |
-| :construction_worker_woman: **`:construction_worker_woman:`** | :cook: **`:cook:`** | :couple_with_heart_man_man: **`:couple_with_heart_man_man:`** |
-| :couple_with_heart_woman_man: **`:couple_with_heart_woman_man:`** | :couple_with_heart_woman_woman: **`:couple_with_heart_woman_woman:`** | :couplekiss_man_man: **`:couplekiss_man_man:`** |
-| :couplekiss_man_woman: **`:couplekiss_man_woman:`** | :couplekiss_woman_woman: **`:couplekiss_woman_woman:`** | :curly_haired_man: **`:curly_haired_man:`** |
-| :curly_haired_woman: **`:curly_haired_woman:`** | :dancing_men: **`:dancing_men:`** | :dancing_women: **`:dancing_women:`** |
-| :deaf_man: **`:deaf_man:`** | :deaf_woman: **`:deaf_woman:`** | :dependabot: **`:dependabot:`** |
-| :electron: **`:electron:`** | :elf_man: **`:elf_man:`** | :elf_woman: **`:elf_woman:`** |
-| :eye_speech_bubble: **`:eye_speech_bubble:`** | :face_exhaling: **`:face_exhaling:`** | :face_in_clouds: **`:face_in_clouds:`** |
-| :face_with_spiral_eyes: **`:face_with_spiral_eyes:`** | :factory_worker: **`:factory_worker:`** | :fairy_man: **`:fairy_man:`** |
-| :fairy_woman: **`:fairy_woman:`** | :family_man_boy: **`:family_man_boy:`** | :family_man_boy_boy: **`:family_man_boy_boy:`** |
-| :family_man_girl: **`:family_man_girl:`** | :family_man_girl_boy: **`:family_man_girl_boy:`** | :family_man_girl_girl: **`:family_man_girl_girl:`** |
-| :family_man_man_boy: **`:family_man_man_boy:`** | :family_man_man_boy_boy: **`:family_man_man_boy_boy:`** | :family_man_man_girl: **`:family_man_man_girl:`** |
-| :family_man_man_girl_boy: **`:family_man_man_girl_boy:`** | :family_man_man_girl_girl: **`:family_man_man_girl_girl:`** | :family_man_woman_boy: **`:family_man_woman_boy:`** |
-| :family_man_woman_boy_boy: **`:family_man_woman_boy_boy:`** | :family_man_woman_girl: **`:family_man_woman_girl:`** | :family_man_woman_girl_boy: **`:family_man_woman_girl_boy:`** |
-| :family_man_woman_girl_girl: **`:family_man_woman_girl_girl:`** | :family_woman_boy: **`:family_woman_boy:`** | :family_woman_boy_boy: **`:family_woman_boy_boy:`** |
-| :family_woman_girl: **`:family_woman_girl:`** | :family_woman_girl_boy: **`:family_woman_girl_boy:`** | :family_woman_girl_girl: **`:family_woman_girl_girl:`** |
-| :family_woman_woman_boy: **`:family_woman_woman_boy:`** | :family_woman_woman_boy_boy: **`:family_woman_woman_boy_boy:`** | :family_woman_woman_girl: **`:family_woman_woman_girl:`** |
-| :family_woman_woman_girl_boy: **`:family_woman_woman_girl_boy:`** | :family_woman_woman_girl_girl: **`:family_woman_woman_girl_girl:`** | :farmer: **`:farmer:`** |
-| :feelsgood: **`:feelsgood:`** | :female_detective: **`:female_detective:`** | :finnadie: **`:finnadie:`** |
-| :firefighter: **`:firefighter:`** | :fishsticks: **`:fishsticks:`** | :frowning_man: **`:frowning_man:`** |
-| :frowning_woman: **`:frowning_woman:`** | :genie_man: **`:genie_man:`** | :genie_woman: **`:genie_woman:`** |
-| :goberserk: **`:goberserk:`** | :godmode: **`:godmode:`** | :golfing_man: **`:golfing_man:`** |
-| :golfing_woman: **`:golfing_woman:`** | :guardsman: **`:guardsman:`** | :guardswoman: **`:guardswoman:`** |
-| :haircut_man: **`:haircut_man:`** | :haircut_woman: **`:haircut_woman:`** | :health_worker: **`:health_worker:`** |
-| :heart_on_fire: **`:heart_on_fire:`** | :hurtrealbad: **`:hurtrealbad:`** | :judge: **`:judge:`** |
-| :kneeling_man: **`:kneeling_man:`** | :kneeling_woman: **`:kneeling_woman:`** | :lotus_position_man: **`:lotus_position_man:`** |
-| :lotus_position_woman: **`:lotus_position_woman:`** | :mage_man: **`:mage_man:`** | :mage_woman: **`:mage_woman:`** |
-| :male_detective: **`:male_detective:`** | :man_artist: **`:man_artist:`** | :man_astronaut: **`:man_astronaut:`** |
-| :man_beard: **`:man_beard:`** | :man_cartwheeling: **`:man_cartwheeling:`** | :man_cook: **`:man_cook:`** |
-| :man_facepalming: **`:man_facepalming:`** | :man_factory_worker: **`:man_factory_worker:`** | :man_farmer: **`:man_farmer:`** |
-| :man_feeding_baby: **`:man_feeding_baby:`** | :man_firefighter: **`:man_firefighter:`** | :man_health_worker: **`:man_health_worker:`** |
-| :man_in_manual_wheelchair: **`:man_in_manual_wheelchair:`** | :man_in_motorized_wheelchair: **`:man_in_motorized_wheelchair:`** | :man_in_tuxedo: **`:man_in_tuxedo:`** |
-| :man_judge: **`:man_judge:`** | :man_juggling: **`:man_juggling:`** | :man_mechanic: **`:man_mechanic:`** |
-| :man_office_worker: **`:man_office_worker:`** | :man_pilot: **`:man_pilot:`** | :man_playing_handball: **`:man_playing_handball:`** |
-| :man_playing_water_polo: **`:man_playing_water_polo:`** | :man_scientist: **`:man_scientist:`** | :man_shrugging: **`:man_shrugging:`** |
-| :man_singer: **`:man_singer:`** | :man_student: **`:man_student:`** | :man_teacher: **`:man_teacher:`** |
-| :man_technologist: **`:man_technologist:`** | :man_with_probing_cane: **`:man_with_probing_cane:`** | :man_with_turban: **`:man_with_turban:`** |
-| :man_with_veil: **`:man_with_veil:`** | :massage_man: **`:massage_man:`** | :massage_woman: **`:massage_woman:`** |
-| :mechanic: **`:mechanic:`** | :men_wrestling: **`:men_wrestling:`** | :mending_heart: **`:mending_heart:`** |
-| :mermaid: **`:mermaid:`** | :merman: **`:merman:`** | :mountain_biking_man: **`:mountain_biking_man:`** |
-| :mountain_biking_woman: **`:mountain_biking_woman:`** | :mx_claus: **`:mx_claus:`** | :neckbeard: **`:neckbeard:`** |
-| :ng_man: **`:ng_man:`** | :no_good_man: **`:no_good_man:`** | :ng_woman: **`:ng_woman:`** |
-| :no_good_woman: **`:no_good_woman:`** | :octocat: **`:octocat:`** | :office_worker: **`:office_worker:`** |
-| :ok_man: **`:ok_man:`** | :ok_woman: **`:ok_woman:`** | :people_holding_hands: **`:people_holding_hands:`** |
-| :person_bald: **`:person_bald:`** | :person_curly_hair: **`:person_curly_hair:`** | :person_feeding_baby: **`:person_feeding_baby:`** |
-| :person_in_manual_wheelchair: **`:person_in_manual_wheelchair:`** | :person_in_motorized_wheelchair: **`:person_in_motorized_wheelchair:`** | :person_red_hair: **`:person_red_hair:`** |
-| :person_white_hair: **`:person_white_hair:`** | :person_with_probing_cane: **`:person_with_probing_cane:`** | :pilot: **`:pilot:`** |
-| :pirate_flag: **`:pirate_flag:`** | :polar_bear: **`:polar_bear:`** | :policeman: **`:policeman:`** |
-| :policewoman: **`:policewoman:`** | :pouting_man: **`:pouting_man:`** | :pouting_woman: **`:pouting_woman:`** |
-| :rage1: **`:rage1:`** | :rage2: **`:rage2:`** | :rage3: **`:rage3:`** |
-| :rage4: **`:rage4:`** | :rainbow_flag: **`:rainbow_flag:`** | :raising_hand_man: **`:raising_hand_man:`** |
-| :raising_hand_woman: **`:raising_hand_woman:`** | :red_haired_man: **`:red_haired_man:`** | :red_haired_woman: **`:red_haired_woman:`** |
-| :rowing_man: **`:rowing_man:`** | :rowing_woman: **`:rowing_woman:`** | :running_man: **`:running_man:`** |
-| :running_woman: **`:running_woman:`** | :sassy_man: **`:sassy_man:`** | :tipping_hand_man: **`:tipping_hand_man:`** |
-| :sassy_woman: **`:sassy_woman:`** | :tipping_hand_woman: **`:tipping_hand_woman:`** | :sauna_man: **`:sauna_man:`** |
-| :sauna_woman: **`:sauna_woman:`** | :scientist: **`:scientist:`** | :service_dog: **`:service_dog:`** |
-| :shipit: **`:shipit:`** | :singer: **`:singer:`** | :standing_man: **`:standing_man:`** |
-| :standing_woman: **`:standing_woman:`** | :student: **`:student:`** | :superhero_man: **`:superhero_man:`** |
-| :superhero_woman: **`:superhero_woman:`** | :supervillain_man: **`:supervillain_man:`** | :supervillain_woman: **`:supervillain_woman:`** |
-| :surfing_man: **`:surfing_man:`** | :surfing_woman: **`:surfing_woman:`** | :suspect: **`:suspect:`** |
-| :swimming_man: **`:swimming_man:`** | :swimming_woman: **`:swimming_woman:`** | :teacher: **`:teacher:`** |
-| :technologist: **`:technologist:`** | :transgender_flag: **`:transgender_flag:`** | :trollface: **`:trollface:`** |
-| :vampire_man: **`:vampire_man:`** | :vampire_woman: **`:vampire_woman:`** | :walking_man: **`:walking_man:`** |
-| :walking_woman: **`:walking_woman:`** | :weight_lifting_man: **`:weight_lifting_man:`** | :weight_lifting_woman: **`:weight_lifting_woman:`** |
-| :white_haired_man: **`:white_haired_man:`** | :white_haired_woman: **`:white_haired_woman:`** | :woman_artist: **`:woman_artist:`** |
-| :woman_astronaut: **`:woman_astronaut:`** | :woman_beard: **`:woman_beard:`** | :woman_cartwheeling: **`:woman_cartwheeling:`** |
-| :woman_cook: **`:woman_cook:`** | :woman_facepalming: **`:woman_facepalming:`** | :woman_factory_worker: **`:woman_factory_worker:`** |
-| :woman_farmer: **`:woman_farmer:`** | :woman_feeding_baby: **`:woman_feeding_baby:`** | :woman_firefighter: **`:woman_firefighter:`** |
-| :woman_health_worker: **`:woman_health_worker:`** | :woman_in_manual_wheelchair: **`:woman_in_manual_wheelchair:`** | :woman_in_motorized_wheelchair: **`:woman_in_motorized_wheelchair:`** |
-| :woman_in_tuxedo: **`:woman_in_tuxedo:`** | :woman_judge: **`:woman_judge:`** | :woman_juggling: **`:woman_juggling:`** |
-| :woman_mechanic: **`:woman_mechanic:`** | :woman_office_worker: **`:woman_office_worker:`** | :woman_pilot: **`:woman_pilot:`** |
-| :woman_playing_handball: **`:woman_playing_handball:`** | :woman_playing_water_polo: **`:woman_playing_water_polo:`** | :woman_scientist: **`:woman_scientist:`** |
-| :woman_shrugging: **`:woman_shrugging:`** | :woman_singer: **`:woman_singer:`** | :woman_student: **`:woman_student:`** |
-| :woman_teacher: **`:woman_teacher:`** | :woman_technologist: **`:woman_technologist:`** | :woman_with_probing_cane: **`:woman_with_probing_cane:`** |
-| :woman_with_turban: **`:woman_with_turban:`** | :women_wrestling: **`:women_wrestling:`** | :zombie_man: **`:zombie_man:`** |
-| :zombie_woman: **`:zombie_woman:`** 
+| :construction_worker_woman: **`:construction_worker_woman:`** | :cook: **`:cook:`** | :copilot: **`:copilot:`** |
+| :couple_with_heart_man_man: **`:couple_with_heart_man_man:`** | :couple_with_heart_woman_man: **`:couple_with_heart_woman_man:`** | :couple_with_heart_woman_woman: **`:couple_with_heart_woman_woman:`** |
+| :couplekiss_man_man: **`:couplekiss_man_man:`** | :couplekiss_man_woman: **`:couplekiss_man_woman:`** | :couplekiss_woman_woman: **`:couplekiss_woman_woman:`** |
+| :curly_haired_man: **`:curly_haired_man:`** | :curly_haired_woman: **`:curly_haired_woman:`** | :dancing_men: **`:dancing_men:`** |
+| :dancing_women: **`:dancing_women:`** | :deaf_man: **`:deaf_man:`** | :deaf_woman: **`:deaf_woman:`** |
+| :dependabot: **`:dependabot:`** | :electron: **`:electron:`** | :elf_man: **`:elf_man:`** |
+| :elf_woman: **`:elf_woman:`** | :eye_speech_bubble: **`:eye_speech_bubble:`** | :face_exhaling: **`:face_exhaling:`** |
+| :face_in_clouds: **`:face_in_clouds:`** | :face_with_spiral_eyes: **`:face_with_spiral_eyes:`** | :factory_worker: **`:factory_worker:`** |
+| :fairy_man: **`:fairy_man:`** | :fairy_woman: **`:fairy_woman:`** | :family_man_boy: **`:family_man_boy:`** |
+| :family_man_boy_boy: **`:family_man_boy_boy:`** | :family_man_girl: **`:family_man_girl:`** | :family_man_girl_boy: **`:family_man_girl_boy:`** |
+| :family_man_girl_girl: **`:family_man_girl_girl:`** | :family_man_man_boy: **`:family_man_man_boy:`** | :family_man_man_boy_boy: **`:family_man_man_boy_boy:`** |
+| :family_man_man_girl: **`:family_man_man_girl:`** | :family_man_man_girl_boy: **`:family_man_man_girl_boy:`** | :family_man_man_girl_girl: **`:family_man_man_girl_girl:`** |
+| :family_man_woman_boy: **`:family_man_woman_boy:`** | :family_man_woman_boy_boy: **`:family_man_woman_boy_boy:`** | :family_man_woman_girl: **`:family_man_woman_girl:`** |
+| :family_man_woman_girl_boy: **`:family_man_woman_girl_boy:`** | :family_man_woman_girl_girl: **`:family_man_woman_girl_girl:`** | :family_woman_boy: **`:family_woman_boy:`** |
+| :family_woman_boy_boy: **`:family_woman_boy_boy:`** | :family_woman_girl: **`:family_woman_girl:`** | :family_woman_girl_boy: **`:family_woman_girl_boy:`** |
+| :family_woman_girl_girl: **`:family_woman_girl_girl:`** | :family_woman_woman_boy: **`:family_woman_woman_boy:`** | :family_woman_woman_boy_boy: **`:family_woman_woman_boy_boy:`** |
+| :family_woman_woman_girl: **`:family_woman_woman_girl:`** | :family_woman_woman_girl_boy: **`:family_woman_woman_girl_boy:`** | :family_woman_woman_girl_girl: **`:family_woman_woman_girl_girl:`** |
+| :farmer: **`:farmer:`** | :feelsgood: **`:feelsgood:`** | :female_detective: **`:female_detective:`** |
+| :finnadie: **`:finnadie:`** | :firefighter: **`:firefighter:`** | :fishsticks: **`:fishsticks:`** |
+| :frowning_man: **`:frowning_man:`** | :frowning_woman: **`:frowning_woman:`** | :genie_man: **`:genie_man:`** |
+| :genie_woman: **`:genie_woman:`** | :goberserk: **`:goberserk:`** | :godmode: **`:godmode:`** |
+| :golfing_man: **`:golfing_man:`** | :golfing_woman: **`:golfing_woman:`** | :guardsman: **`:guardsman:`** |
+| :guardswoman: **`:guardswoman:`** | :haircut_man: **`:haircut_man:`** | :haircut_woman: **`:haircut_woman:`** |
+| :health_worker: **`:health_worker:`** | :heart_on_fire: **`:heart_on_fire:`** | :hurtrealbad: **`:hurtrealbad:`** |
+| :judge: **`:judge:`** | :kneeling_man: **`:kneeling_man:`** | :kneeling_woman: **`:kneeling_woman:`** |
+| :lotus_position_man: **`:lotus_position_man:`** | :lotus_position_woman: **`:lotus_position_woman:`** | :mage_man: **`:mage_man:`** |
+| :mage_woman: **`:mage_woman:`** | :male_detective: **`:male_detective:`** | :man_artist: **`:man_artist:`** |
+| :man_astronaut: **`:man_astronaut:`** | :man_beard: **`:man_beard:`** | :man_cartwheeling: **`:man_cartwheeling:`** |
+| :man_cook: **`:man_cook:`** | :man_facepalming: **`:man_facepalming:`** | :man_factory_worker: **`:man_factory_worker:`** |
+| :man_farmer: **`:man_farmer:`** | :man_feeding_baby: **`:man_feeding_baby:`** | :man_firefighter: **`:man_firefighter:`** |
+| :man_health_worker: **`:man_health_worker:`** | :man_in_manual_wheelchair: **`:man_in_manual_wheelchair:`** | :man_in_motorized_wheelchair: **`:man_in_motorized_wheelchair:`** |
+| :man_in_tuxedo: **`:man_in_tuxedo:`** | :man_judge: **`:man_judge:`** | :man_juggling: **`:man_juggling:`** |
+| :man_mechanic: **`:man_mechanic:`** | :man_office_worker: **`:man_office_worker:`** | :man_pilot: **`:man_pilot:`** |
+| :man_playing_handball: **`:man_playing_handball:`** | :man_playing_water_polo: **`:man_playing_water_polo:`** | :man_scientist: **`:man_scientist:`** |
+| :man_shrugging: **`:man_shrugging:`** | :man_singer: **`:man_singer:`** | :man_student: **`:man_student:`** |
+| :man_teacher: **`:man_teacher:`** | :man_technologist: **`:man_technologist:`** | :man_with_probing_cane: **`:man_with_probing_cane:`** |
+| :man_with_turban: **`:man_with_turban:`** | :man_with_veil: **`:man_with_veil:`** | :massage_man: **`:massage_man:`** |
+| :massage_woman: **`:massage_woman:`** | :mechanic: **`:mechanic:`** | :men_wrestling: **`:men_wrestling:`** |
+| :mending_heart: **`:mending_heart:`** | :mermaid: **`:mermaid:`** | :merman: **`:merman:`** |
+| :mountain_biking_man: **`:mountain_biking_man:`** | :mountain_biking_woman: **`:mountain_biking_woman:`** | :mx_claus: **`:mx_claus:`** |
+| :neckbeard: **`:neckbeard:`** | :ng_man: **`:ng_man:`** | :no_good_man: **`:no_good_man:`** |
+| :ng_woman: **`:ng_woman:`** | :no_good_woman: **`:no_good_woman:`** | :octocat: **`:octocat:`** |
+| :office_worker: **`:office_worker:`** | :ok_man: **`:ok_man:`** | :ok_woman: **`:ok_woman:`** |
+| :people_holding_hands: **`:people_holding_hands:`** | :person_bald: **`:person_bald:`** | :person_curly_hair: **`:person_curly_hair:`** |
+| :person_feeding_baby: **`:person_feeding_baby:`** | :person_in_manual_wheelchair: **`:person_in_manual_wheelchair:`** | :person_in_motorized_wheelchair: **`:person_in_motorized_wheelchair:`** |
+| :person_red_hair: **`:person_red_hair:`** | :person_white_hair: **`:person_white_hair:`** | :person_with_probing_cane: **`:person_with_probing_cane:`** |
+| :pilot: **`:pilot:`** | :pirate_flag: **`:pirate_flag:`** | :polar_bear: **`:polar_bear:`** |
+| :policeman: **`:policeman:`** | :policewoman: **`:policewoman:`** | :pouting_man: **`:pouting_man:`** |
+| :pouting_woman: **`:pouting_woman:`** | :rage1: **`:rage1:`** | :rage2: **`:rage2:`** |
+| :rage3: **`:rage3:`** | :rage4: **`:rage4:`** | :rainbow_flag: **`:rainbow_flag:`** |
+| :raising_hand_man: **`:raising_hand_man:`** | :raising_hand_woman: **`:raising_hand_woman:`** | :red_haired_man: **`:red_haired_man:`** |
+| :red_haired_woman: **`:red_haired_woman:`** | :rowing_man: **`:rowing_man:`** | :rowing_woman: **`:rowing_woman:`** |
+| :running_man: **`:running_man:`** | :running_woman: **`:running_woman:`** | :sassy_man: **`:sassy_man:`** |
+| :tipping_hand_man: **`:tipping_hand_man:`** | :sassy_woman: **`:sassy_woman:`** | :tipping_hand_woman: **`:tipping_hand_woman:`** |
+| :sauna_man: **`:sauna_man:`** | :sauna_woman: **`:sauna_woman:`** | :scientist: **`:scientist:`** |
+| :service_dog: **`:service_dog:`** | :shipit: **`:shipit:`** | :singer: **`:singer:`** |
+| :standing_man: **`:standing_man:`** | :standing_woman: **`:standing_woman:`** | :student: **`:student:`** |
+| :superhero_man: **`:superhero_man:`** | :superhero_woman: **`:superhero_woman:`** | :supervillain_man: **`:supervillain_man:`** |
+| :supervillain_woman: **`:supervillain_woman:`** | :surfing_man: **`:surfing_man:`** | :surfing_woman: **`:surfing_woman:`** |
+| :suspect: **`:suspect:`** | :swimming_man: **`:swimming_man:`** | :swimming_woman: **`:swimming_woman:`** |
+| :teacher: **`:teacher:`** | :technologist: **`:technologist:`** | :transgender_flag: **`:transgender_flag:`** |
+| :trollface: **`:trollface:`** | :vampire_man: **`:vampire_man:`** | :vampire_woman: **`:vampire_woman:`** |
+| :walking_man: **`:walking_man:`** | :walking_woman: **`:walking_woman:`** | :weight_lifting_man: **`:weight_lifting_man:`** |
+| :weight_lifting_woman: **`:weight_lifting_woman:`** | :white_haired_man: **`:white_haired_man:`** | :white_haired_woman: **`:white_haired_woman:`** |
+| :woman_artist: **`:woman_artist:`** | :woman_astronaut: **`:woman_astronaut:`** | :woman_beard: **`:woman_beard:`** |
+| :woman_cartwheeling: **`:woman_cartwheeling:`** | :woman_cook: **`:woman_cook:`** | :woman_facepalming: **`:woman_facepalming:`** |
+| :woman_factory_worker: **`:woman_factory_worker:`** | :woman_farmer: **`:woman_farmer:`** | :woman_feeding_baby: **`:woman_feeding_baby:`** |
+| :woman_firefighter: **`:woman_firefighter:`** | :woman_health_worker: **`:woman_health_worker:`** | :woman_in_manual_wheelchair: **`:woman_in_manual_wheelchair:`** |
+| :woman_in_motorized_wheelchair: **`:woman_in_motorized_wheelchair:`** | :woman_in_tuxedo: **`:woman_in_tuxedo:`** | :woman_judge: **`:woman_judge:`** |
+| :woman_juggling: **`:woman_juggling:`** | :woman_mechanic: **`:woman_mechanic:`** | :woman_office_worker: **`:woman_office_worker:`** |
+| :woman_pilot: **`:woman_pilot:`** | :woman_playing_handball: **`:woman_playing_handball:`** | :woman_playing_water_polo: **`:woman_playing_water_polo:`** |
+| :woman_scientist: **`:woman_scientist:`** | :woman_shrugging: **`:woman_shrugging:`** | :woman_singer: **`:woman_singer:`** |
+| :woman_student: **`:woman_student:`** | :woman_teacher: **`:woman_teacher:`** | :woman_technologist: **`:woman_technologist:`** |
+| :woman_with_probing_cane: **`:woman_with_probing_cane:`** | :woman_with_turban: **`:woman_with_turban:`** | :women_wrestling: **`:women_wrestling:`** |
+| :zombie_man: **`:zombie_man:`** | :zombie_woman: **`:zombie_woman:`** 
