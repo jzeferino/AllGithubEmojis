@@ -58,7 +58,7 @@ namespace AllGithubEmojis.Generator.GithubReadme
         {
             _builder.AppendLine("# [AllGithubEmojis](https://jzeferino.github.io/AllGithubEmojis/)");
 
-            _builder.AppendLine("* A list of **all supported github** emojis updated weekly.");
+            _builder.AppendLine("* An up to date list of **all supported github** emojis.");
             _builder.AppendLine("* **Automatically generated** from github emoji API.");
             _builder.AppendLine("* Grouped following official emoji [convention](http://unicode.org/emoji/charts/full-emoji-list.html).");
 
